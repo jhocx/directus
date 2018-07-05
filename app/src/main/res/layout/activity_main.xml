@@ -37,4 +37,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/directuslogocompressed" />
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#B0132D"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/nearbyMalls"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="5dp"
+        android:text="Nearby Malls"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
+
 </android.support.constraint.ConstraintLayout>
