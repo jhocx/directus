@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    // This is the toolbar for the top directus logo.
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="506dp"
@@ -16,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-12dp" />
 
+    // This is the directus logo.
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="164dp"
@@ -27,6 +29,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/apptext" />
 
+    // This is the directus word logo.
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="54dp"
@@ -37,29 +40,96 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/directuslogocompressed" />
 
+    // This is the toolbar that serves as the header of the page.
+
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="match_parent"
+        android:id="@+id/tbHeader"
+        android:layout_width="0dp"
         android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="#B0132D"
+        android:gravity="bottom"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:titleTextColor="@android:color/white" />
 
+    // This is the textview that sits in tbHeader.
+
     <TextView
-        android:id="@+id/nearbyMalls"
+        android:id="@+id/tvHeader"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:paddingLeft="5dp"
-        android:text="Nearby Malls"
+        android:text="@string/MA_tvHeader"
         android:textColor="@android:color/white"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tbHeader"
+        app:layout_constraintStart_toStartOf="@+id/tbHeader"
+        app:layout_constraintTop_toTopOf="@+id/tbHeader" />
+
+    // This is the button to open the mall selector.
+
+    <Button
+        android:id="@+id/btnSelectMall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/directUs_red"
+        android:text="@string/MA_btnMallSelect"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2" />
+        app:layout_constraintTop_toBottomOf="@+id/tbHeader" />
+
+    // This is the tv textview that visually feedbacks the malls the user has currently chosen.
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/MA_userSelectedMalls"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectMall" />
+
+    <TextView
+        android:id="@+id/tvMallsSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnToDirectory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/directUs_red"
+        android:text="Go!"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
