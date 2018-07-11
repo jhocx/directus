@@ -1,14 +1,18 @@
 package com.example.jhocx.directus;
 
+import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.location.Location;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.Toolbar;
 import android.view.View;
 import android.content.Intent;
@@ -16,12 +20,16 @@ import android.content.Intent;
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
+import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
     TextView tvHeader;
     Button btnSelectMall;
     TextView tvMallsSelected;
     Button btnToDirectory;
+    Button btnGetLoc;
+    TextView tvLocation;
+    static DecimalFormat df3 = new DecimalFormat(".###");
 
     // listMalls is a string array hardcoded in strings.xml. It contains the names of all malls available in our app.
     String[] listMalls;
@@ -117,6 +125,30 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openDirectoryActivity();
+            }
+        });
+
+        // This section deals with obtainin user's GPS location.
+        btnGetLoc = (Button) findViewById(R.id.btnGetLoc);
+        tvLocation = (TextView) findViewById(R.id.tvLocation);
+        ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 123);
+        GPSTracker g = new GPSTracker(getApplicationContext());
+        Location l = g.getLocation();
+        if (l!= null) {
+            double lat = l.getLatitude();
+            double lon = l.getLongitude();
+            tvLocation.setText("Current GPS Location: LAT = " + df3.format(lat) + ", LON = " + df3.format(lon));
+        }
+        btnGetLoc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GPSTracker g = new GPSTracker(getApplicationContext());
+                Location l = g.getLocation();
+                if (l!= null) {
+                    double lat = l.getLatitude();
+                    double lon = l.getLongitude();
+                    tvLocation.setText("Current GPS Location: LAT = " + df3.format(lat) + ", LON = " + df3.format(lon));
+                }
             }
         });
     }
