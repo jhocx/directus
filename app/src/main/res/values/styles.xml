@@ -7,5 +7,4 @@
         <item name="android:windowFullscreen">false</item>
         <item name="colorPrimary">@android:color/background_light</item>
     </style>
-
 </resources>

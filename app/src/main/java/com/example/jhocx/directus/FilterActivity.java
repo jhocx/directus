@@ -1,12 +1,10 @@
 package com.example.jhocx.directus;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.Filter;
 import android.widget.TextView;
 import android.content.SharedPreferences;
 import android.util.Log;
@@ -37,8 +35,9 @@ public class FilterActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton view, boolean foodIsChecked) {
                 Log.i("foodBoolean",""+foodIsChecked);
-                Toast.makeText(FilterActivity.this, "This is my Toast message!", Toast.LENGTH_LONG).show();
                 FilterActivity.this.putBooleanInPreferences(foodIsChecked,"foodIsChecked");
+                Toast.makeText(FilterActivity.this, Boolean.toString(foodIsChecked) + Boolean.toString(fashionIsChecked), Toast.LENGTH_LONG).show();
+
             }
         });
 
@@ -49,8 +48,8 @@ public class FilterActivity extends AppCompatActivity {
         fashionButton.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton view, boolean fashionIsChecked) {
-                Log.i("fashionBoolean",""+fashionIsChecked);
                 FilterActivity.this.putBooleanInPreferences(fashionIsChecked,"fashionIsChecked");
+                fashionIsChecked = fashionButton.isChecked();
             }
         });
 
@@ -128,6 +127,8 @@ public class FilterActivity extends AppCompatActivity {
 
 
     }
+
+
     public void putBooleanInPreferences(boolean isChecked,String key){
         SharedPreferences sharedPreferences = this.getPreferences(Activity.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -141,7 +142,30 @@ public class FilterActivity extends AppCompatActivity {
     }
 
     public void submitFilter(View v) {
-        startActivity(new Intent(FilterActivity.this, DirectoryActivity.class));
+        Intent intentBundle = new Intent(FilterActivity.this, DirectoryActivity.class);
+        Bundle bundle  = new Bundle();
+
+        foodIsChecked = foodButton.isChecked();
+        fashionIsChecked = fashionButton.isChecked();
+        booksIsChecked = booksButton.isChecked();
+        entertainmentIsChecked = entertainmentButton.isChecked();
+        supermartIsChecked = supermartButton.isChecked();
+        healthcareIsChecked = healthcareButton.isChecked();
+        serviceIsChecked = serviceButton.isChecked();
+        othersIsChecked = othersButton.isChecked();
+
+
+        bundle.putBoolean("foodIsChecked", foodIsChecked);
+        bundle.putBoolean("fashionIsChecked", fashionIsChecked);
+        bundle.putBoolean("booksIsChecked", booksIsChecked);
+        bundle.putBoolean("entertainmentIsChecked", entertainmentIsChecked);
+        bundle.putBoolean("supermartIsChecked", supermartIsChecked);
+        bundle.putBoolean("healthcareIsChecked", healthcareIsChecked);
+        bundle.putBoolean("serviceIsChecked", serviceIsChecked);
+        bundle.putBoolean("othersIsChecked", othersIsChecked);
+        Toast.makeText(FilterActivity.this, Boolean.toString(foodIsChecked) + Boolean.toString(fashionIsChecked), Toast.LENGTH_LONG).show();
+        intentBundle.putExtras(bundle);
+        startActivity(intentBundle);
     }
 
 }
