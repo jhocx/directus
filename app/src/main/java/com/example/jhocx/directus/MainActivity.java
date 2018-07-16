@@ -12,17 +12,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.Toolbar;
-import android.view.View;
-import android.content.Intent;
-
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 import java.text.DecimalFormat;
 
+
 public class MainActivity extends AppCompatActivity {
+
     TextView tvHeader;
     Button btnSelectMall;
     TextView tvMallsSelected;

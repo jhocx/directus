@@ -11,7 +11,6 @@ import android.util.Log;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.CompoundButton;
 import android.app.Activity;
-import android.widget.Toast;
 
 
 
@@ -36,7 +35,6 @@ public class FilterActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton view, boolean foodIsChecked) {
                 Log.i("foodBoolean",""+foodIsChecked);
                 FilterActivity.this.putBooleanInPreferences(foodIsChecked,"foodIsChecked");
-                Toast.makeText(FilterActivity.this, Boolean.toString(foodIsChecked) + Boolean.toString(fashionIsChecked), Toast.LENGTH_LONG).show();
 
             }
         });
@@ -49,7 +47,6 @@ public class FilterActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton view, boolean fashionIsChecked) {
                 FilterActivity.this.putBooleanInPreferences(fashionIsChecked,"fashionIsChecked");
-                fashionIsChecked = fashionButton.isChecked();
             }
         });
 
@@ -163,7 +160,6 @@ public class FilterActivity extends AppCompatActivity {
         bundle.putBoolean("healthcareIsChecked", healthcareIsChecked);
         bundle.putBoolean("serviceIsChecked", serviceIsChecked);
         bundle.putBoolean("othersIsChecked", othersIsChecked);
-        Toast.makeText(FilterActivity.this, Boolean.toString(foodIsChecked) + Boolean.toString(fashionIsChecked), Toast.LENGTH_LONG).show();
         intentBundle.putExtras(bundle);
         startActivity(intentBundle);
     }
