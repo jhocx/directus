@@ -7,6 +7,21 @@
     tools:context=".MainActivity">
 
     // This is the toolbar for the top directus logo.
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Your desired distance is: NA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLocation" />
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="506dp"
@@ -45,14 +60,17 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/tbHeader"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
         android:background="#B0132D"
         android:gravity="bottom"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:titleTextColor="@android:color/white" />
 
     // This is the textview that sits in tbHeader.
@@ -62,15 +80,19 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="8dp"
         android:paddingLeft="5dp"
         android:text="@string/MA_tvHeader"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/tbHeader"
+        app:layout_constraintEnd_toStartOf="@+id/btnGetLoc"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tbHeader"
-        app:layout_constraintTop_toTopOf="@+id/tbHeader" />
+        app:layout_constraintTop_toTopOf="@+id/tbHeader"
+        app:layout_constraintVertical_bias="1.0" />
 
     // This is the button to open the mall selector.
 
@@ -87,7 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvLocation" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     // This is the tv textview that visually feedbacks the malls the user has currently chosen.
 
@@ -133,10 +155,13 @@
         android:id="@+id/btnGetLoc"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
         android:text="Update GPS"
         android:textColor="@android:color/black"
         android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tbHeader"
         app:layout_constraintEnd_toEndOf="@+id/tbHeader"
         app:layout_constraintTop_toTopOf="@+id/tbHeader" />
 
@@ -149,5 +174,36 @@
         android:text="Current GPS Location: Please Update GPS."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tbHeader" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMallsSelected" />
+
+    <TextView
+        android:id="@+id/testMall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>

@@ -52,6 +52,6 @@ public class GPSTracker implements LocationListener{
 
     @Override
     public void onProviderDisabled(String provider) {
- 
+
     }
 }

@@ -4,10 +4,4 @@
     <string name="MA_btnMallSelect">Select Malls</string>
     <string name="MA_userSelectedMalls">Malls Selected:</string>
     <string name="MA_tvMallsSelectedDefault">No malls have been selected.</string>
-
-    <string-array name="malls">
-        <item>JCube</item>
-        <item>Jem</item>
-        <item>Westgate</item>
-    </string-array>
 </resources>
