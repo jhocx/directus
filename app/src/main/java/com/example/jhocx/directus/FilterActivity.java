@@ -11,7 +11,7 @@ import android.util.Log;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.CompoundButton;
 import android.app.Activity;
-
+import android.widget.Toast;
 
 
 
@@ -25,6 +25,7 @@ public class FilterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
+        Toast.makeText(FilterActivity.this, "check on create effects", Toast.LENGTH_LONG).show();
 
         foodButton = (CheckBox) findViewById(R.id.food);
         foodIsChecked = getBooleanFromPreferences("foodIsChecked");

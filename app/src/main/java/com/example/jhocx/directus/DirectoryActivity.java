@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,6 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.Map;
 
 
@@ -35,9 +37,13 @@ public class DirectoryActivity extends AppCompatActivity {
 
     //Map<String, Integer> mapIndex;
     private List<Shop> allShops = new ArrayList<Shop>();
+    private List<Shop> filteredShops = new ArrayList<>();
+    private List<Shop> filteredShops2 = new ArrayList<>();
+
     ListView list;
     int length;
     String[] shopNameArray;
+    String[] shoppingMalls = {"Westgate"};
 
     //To make search view only focusable on touch
     private View rootView;
@@ -99,8 +105,8 @@ public class DirectoryActivity extends AppCompatActivity {
         }
 
         getJson();
+        filterByCategories();
         populateListView();
-
     }
 
     //To make search view focusable on touch
@@ -139,7 +145,7 @@ public class DirectoryActivity extends AppCompatActivity {
 
     private class MyListAdapter extends ArrayAdapter<Shop> {
         public MyListAdapter() {
-            super(DirectoryActivity.this, R.layout.listview, allShops);
+            super(DirectoryActivity.this, R.layout.listview, filteredShops);
         }
 
         @Override
@@ -150,7 +156,7 @@ public class DirectoryActivity extends AppCompatActivity {
                 itemView = getLayoutInflater().inflate(R.layout.listview, parent, false);
             }
             //Find the shop
-            Shop currentShop = allShops.get(position);
+            Shop currentShop = filteredShops.get(position);
 
             ImageView imageView = (ImageView) itemView.findViewById(R.id.shopPhoto);
             if (currentShop.getPhotoURL().isEmpty()) {
@@ -167,8 +173,7 @@ public class DirectoryActivity extends AppCompatActivity {
             textView2.setText(currentShop.getAddress());
 
             TextView shoppingMall = (TextView) itemView.findViewById(R.id.shoppingMall);
-            shoppingMall.setText("Westgate");
-
+            shoppingMall.setText(currentShop.getShoppingMall());
 
             return itemView;
         }
@@ -177,21 +182,23 @@ public class DirectoryActivity extends AppCompatActivity {
     public void getJson() {
         String json;
         try {
-            InputStream is = getAssets().open("Westgate.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
 
-            json = new String(buffer, "UTF-8");
-            JSONArray jsonArray = new JSONArray(json);
-            length = jsonArray.length();
+            for(int i=0; i<shoppingMalls.length; i++) {
+                InputStream is = getAssets().open(shoppingMalls[i] + ".json");
+                int size = is.available();
+                byte[] buffer = new byte[size];
+                is.read(buffer);
+                is.close();
+
+                json = new String(buffer, "UTF-8");
+                JSONArray jsonArray = new JSONArray(json);
+                length = jsonArray.length();
 
 
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject obj = jsonArray.getJSONObject(i);
-                allShops.add(new Shop(obj.getString("Name"), obj.getString("Address"), obj.getString("img_src")));
-
+                for (int j = 0; j < jsonArray.length(); j++) {
+                    JSONObject obj = jsonArray.getJSONObject(j);
+                    allShops.add(new Shop(shoppingMalls[i], obj.getString("Name"), obj.getString("Address"), obj.getString("img_src"), obj.getString("Category")));
+                }
             }
 
         } catch (IOException e) {
@@ -199,6 +206,29 @@ public class DirectoryActivity extends AppCompatActivity {
 
         } catch (JSONException e) {
             e.printStackTrace();
+        }
+    }
+
+    public void filterByCategories() {
+
+        filteredShops = allShops;
+
+        if (!foodIsChecked) {
+            filteredShops = allShops.stream().filter(p -> !("Food".equals(p.getCategory()))).collect(Collectors.toList());
+        } if (!fashionIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Fashion".equals(p.getCategory()))).collect(Collectors.toList());
+        } if (!booksIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Books".equals(p.getCategory()))).collect(Collectors.toList());
+        } if(!entertainmentIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Entertainment".equals(p.getCategory()))).collect(Collectors.toList());
+        } if(!supermartIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Supermart".equals(p.getCategory()))).collect(Collectors.toList());
+        } if(!healthcareIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Healthcare".equals(p.getCategory()))).collect(Collectors.toList());
+        } if(!serviceIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Service".equals(p.getCategory()))).collect(Collectors.toList());
+        } if(!othersIsChecked){
+            filteredShops = filteredShops.stream().filter(p -> !("Others".equals(p.getCategory()))).collect(Collectors.toList());
         }
 
     }
