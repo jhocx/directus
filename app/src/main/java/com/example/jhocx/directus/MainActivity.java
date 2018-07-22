@@ -47,8 +47,9 @@ public class MainActivity extends AppCompatActivity {
     // checkedMalls is the boolean array that determines which mall(s) the user has selected.
     boolean[] checkedMalls;
     // mUserMalls is the current ArrayList of malls that the user has selected.
-    ArrayList<Integer> mUserMalls = new ArrayList<>();
+    ArrayList<String> mUserMalls = new ArrayList<>();
     String[] mUserMallsString;
+    int noOfMallsSelected = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,60 +96,6 @@ public class MainActivity extends AppCompatActivity {
         btnSelectMall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Algorithm for determining distance between 2 coordinate points.
-                // A LAT LON distance calculator: https://www.movable-type.co.uk/scripts/latlong.html
-                // Algorithm retrieved from https://stackoverflow.com/questions/3694380/calculating-distance-between-two-points-using-latitude-longitude-what-am-i-doi
-                // LAT LON coordinates finder: https://www.latlong.net/
-                try {
-                    InputStream is = getAssets().open("Mall Coordinates.json");
-                    int size = is.available();
-                    byte[] buffer = new byte[size];
-                    is.read(buffer);
-                    is.close();
-
-                    String json = new String(buffer, "UTF-8");
-                    JSONArray jsonArray = new JSONArray(json);
-                    listNearby = new String[jsonArray.length()];
-
-                    TextView test = (TextView) findViewById(R.id.test);
-                    TextView testMall = (TextView) findViewById(R.id.testMall);
-
-                    final int earthRadius = 6371000;
-                    int arrayCounter = 0;
-                    for (int i=0; i< jsonArray.length(); i++) {
-                        JSONObject obj = jsonArray.getJSONObject(i);
-                        double lat2 = Double.parseDouble(obj.getString("LAT"));
-                        double lon2 = Double.parseDouble(obj.getString("LON"));
-
-                        double circle1 = Math.toRadians(userLat);
-                        double circle2 = Math.toRadians(lat2);
-
-                        double deltaCircle = Math.toRadians(lat2 - userLat);
-                        double deltaRen = Math.toRadians(lon2 - userLon);
-                        double a = Math.sin(deltaCircle/2) * Math.sin(deltaCircle/2)
-                                + Math.cos(circle1) * Math.cos(circle2)
-                                * Math.sin(deltaRen/2) * Math.sin(deltaRen/2);
-                        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-                        double distance = earthRadius * c;      // distance in metres
-
-                        if (distance < progressValue) {
-                            test.setText("The distance between user and Mall is: " + df3.format(distance) + " meters.");
-                            listNearby[arrayCounter] = obj.getString("Mall");
-                            arrayCounter++;
-                        }
-                    }
-                    listNearbyTrimmed = new String[arrayCounter];
-                    for(int i=0; i<arrayCounter; i++) {
-                        listNearbyTrimmed[i] = listNearby[i];
-                    }
-                    checkedMalls = new boolean[arrayCounter];
-                    testMall.setText("The malls nearby are: " + Arrays.toString(listNearbyTrimmed));
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
                 // Learnt from https://www.youtube.com/watch?v=wfADRuyul04
                 AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
                 mBuilder.setTitle("Please select malls you wish to be included.");
@@ -159,13 +106,13 @@ public class MainActivity extends AppCompatActivity {
                         if (isChecked) {
                             // and if the item is not already in mUserMalls.
                             // this is necessary to avoid duplicates
-                            if (!mUserMalls.contains(position)) {
-                                mUserMalls.add(position);
+                            if (!mUserMalls.contains(listNearbyTrimmed[position])) {
+                                mUserMalls.add(listNearbyTrimmed[position]);
                             }
                         }
                         // if checkbox is unchecked and if the mall is currently in mUserMalls:
-                        else if (mUserMalls.contains(position)) {
-                            mUserMalls.remove(position);
+                        else if (mUserMalls.contains(listNearbyTrimmed[position])) {
+                            mUserMalls.remove(listNearbyTrimmed[position]);
                         }
                     }
                 });
@@ -176,7 +123,9 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int which) {
                         String item = "";
                         for (int i = 0; i < mUserMalls.size(); i++) {
-                            item = item + listNearbyTrimmed[mUserMalls.get(i)];
+                            if (mUserMalls.get(i) != null) {
+                                item = item + mUserMalls.get(i);
+                            }
                             // append a comma at the end if item is not the last item.
                             if (i != mUserMalls.size() - 1) {
                                 item = item + "\n";
@@ -233,6 +182,57 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onStopTrackingTouch(SeekBar seekBar) {
                         textView2.setText("Your desired distance is: " + progressValue + "m.");
+                        // Algorithm for determining distance between 2 coordinate points.
+                        // A LAT LON distance calculator: https://www.movable-type.co.uk/scripts/latlong.html
+                        // Algorithm retrieved from https://stackoverflow.com/questions/3694380/calculating-distance-between-two-points-using-latitude-longitude-what-am-i-doi
+                        // LAT LON coordinates finder: https://www.latlong.net/
+                        try {
+                            InputStream is = getAssets().open("Mall Coordinates.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+
+                            String json = new String(buffer, "UTF-8");
+                            JSONArray jsonArray = new JSONArray(json);
+                            listNearby = new String[jsonArray.length()];
+
+                            TextView testMall = (TextView) findViewById(R.id.testMall);
+
+                            final int earthRadius = 6371000;
+                            int arrayCounter = 0;
+                            for (int i=0; i< jsonArray.length(); i++) {
+                                JSONObject obj = jsonArray.getJSONObject(i);
+                                double lat2 = Double.parseDouble(obj.getString("LAT"));
+                                double lon2 = Double.parseDouble(obj.getString("LON"));
+
+                                double circle1 = Math.toRadians(userLat);
+                                double circle2 = Math.toRadians(lat2);
+
+                                double deltaCircle = Math.toRadians(lat2 - userLat);
+                                double deltaRen = Math.toRadians(lon2 - userLon);
+                                double a = Math.sin(deltaCircle/2) * Math.sin(deltaCircle/2)
+                                        + Math.cos(circle1) * Math.cos(circle2)
+                                        * Math.sin(deltaRen/2) * Math.sin(deltaRen/2);
+                                double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                                double distance = earthRadius * c;      // distance in metres
+
+                                if (distance < progressValue) {
+                                    listNearby[arrayCounter] = obj.getString("Mall");
+                                    arrayCounter++;
+                                }
+                            }
+                            listNearbyTrimmed = new String[arrayCounter];
+                            for(int i=0; i<arrayCounter; i++) {
+                                listNearbyTrimmed[i] = listNearby[i];
+                            }
+                            checkedMalls = new boolean[arrayCounter];
+                            testMall.setText("The malls nearby are: " + Arrays.toString(listNearbyTrimmed));
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
         );
@@ -241,11 +241,16 @@ public class MainActivity extends AppCompatActivity {
     public void openDirectoryActivity(View v) {
         Intent intent = new Intent(this, DirectoryActivity.class);
         Bundle b = new Bundle();
-        mUserMallsString = new String[mUserMalls.size()];
-        int j=0;
         for (int i=0; i<mUserMalls.size(); i++) {
             if (mUserMalls.get(i) != null) {
-                mUserMallsString[j] = listNearbyTrimmed[i];
+                noOfMallsSelected++;
+            }
+        }
+        mUserMallsString = new String[noOfMallsSelected];
+        int j=0;
+        for (int i = 0; i < mUserMalls.size(); i++) {
+            if (mUserMalls.get(i) != null) {
+                mUserMallsString[j] = mUserMalls.get(i);
                 j++;
             }
         }
