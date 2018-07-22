@@ -146,6 +146,7 @@
         android:layout_marginStart="8dp"
         android:background="@color/directUs_red"
         android:text="Go!"
+        android:onClick="openDirectoryActivity"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

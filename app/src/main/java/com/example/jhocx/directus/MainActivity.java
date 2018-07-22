@@ -211,22 +211,6 @@ public class MainActivity extends AppCompatActivity {
         // This section implements the bottommost  button that sends us to the DirectoryActivity.
         // The function openActivity2 is specified outside of the onCreate function.
         btnToDirectory = (Button) findViewById(R.id.btnToDirectory);
-        btnToDirectory.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int j=0;
-                for (int i=0; i<mUserMalls.size(); i++) {
-                    if (mUserMalls.get(i) != null) {
-                        mUserMallsString[j] = listNearbyTrimmed[i];
-                    }
-                }
-                Bundle b = new Bundle();
-                b.putStringArray("MY_KEY", mUserMallsString);
-                Intent i = new Intent(MainActivity.this, DirectoryActivity.class);
-                i.putExtras(b);
-                openDirectoryActivity();
-            }
-        });
     }
 
     public void configureSeekBar () {
@@ -254,8 +238,19 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
-    public void openDirectoryActivity() {
+    public void openDirectoryActivity(View v) {
         Intent intent = new Intent(this, DirectoryActivity.class);
+        Bundle b = new Bundle();
+        mUserMallsString = new String[mUserMalls.size()];
+        int j=0;
+        for (int i=0; i<mUserMalls.size(); i++) {
+            if (mUserMalls.get(i) != null) {
+                mUserMallsString[j] = listNearbyTrimmed[i];
+                j++;
+            }
+        }
+        b.putStringArray("MY_KEY", mUserMallsString);
+        intent.putExtras(b);
         startActivity(intent);
     }
 }

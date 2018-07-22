@@ -30,6 +30,7 @@ import java.util.Map;
 
 
 public class DirectoryActivity extends AppCompatActivity {
+    boolean filterActivityOpened, mainActivityOpened;
     boolean foodIsChecked, fashionIsChecked, booksIsChecked, entertainmentIsChecked, supermartIsChecked, healthcareIsChecked, serviceIsChecked, othersIsChecked;
     boolean categoriesFiltered = false;
     TextView categoriesSelected, mallsSelected;
@@ -38,7 +39,6 @@ public class DirectoryActivity extends AppCompatActivity {
     //Map<String, Integer> mapIndex;
     private List<Shop> allShops = new ArrayList<Shop>();
     private List<Shop> filteredShops = new ArrayList<>();
-    private List<Shop> filteredShops2 = new ArrayList<>();
 
     ListView list;
     int length;
@@ -52,12 +52,20 @@ public class DirectoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_directory);
+
+        filterActivityOpened = FilterActivity.filterActivityIsOpen();
+
         rootView = findViewById(R.id.root_layout);
-;       searchView = (SearchView) findViewById(R.id.search);
+        searchView = (SearchView) findViewById(R.id.search);
 
         //Initialise categories textView
         categoriesSelected = (TextView) findViewById(R.id.categoriesSelected);
         categoriesSelected.setText("No categories yet");
+
+        if(!filterActivityOpened) {
+            getJson();
+            populateListView();
+        }
 
         Intent intentExtras = getIntent();
         Bundle bundle = intentExtras.getExtras();
@@ -72,6 +80,8 @@ public class DirectoryActivity extends AppCompatActivity {
             healthcareIsChecked = bundle.getBoolean("healthcareIsChecked", false);
             serviceIsChecked = bundle.getBoolean("serviceIsChecked", false);
             othersIsChecked = bundle.getBoolean("othersIsChecked", false);
+            shopNameArray = bundle.getStringArray("MY_KEY");
+            //Toast.makeText(this, "bundle non-null", Toast.LENGTH_LONG).show();
             categoriesFiltered = true;
         }
 
@@ -104,9 +114,14 @@ public class DirectoryActivity extends AppCompatActivity {
             categoriesSelected.setText(categoriesString);
         }
 
-        getJson();
-        filterByCategories();
-        populateListView();
+        Toast.makeText(this, shopNameArray[0], Toast.LENGTH_LONG).show();
+
+        if(filterActivityOpened){
+            getJson();
+            filterByCategories();
+            populateListView();
+        }
+
     }
 
     //To make search view focusable on touch
@@ -118,9 +133,7 @@ public class DirectoryActivity extends AppCompatActivity {
     }
 
 
-
-
-    public void openFilterActivity(View v){
+    public void openFilterActivity(View v) {
         startActivity(new Intent(DirectoryActivity.this, FilterActivity.class));
     }
 
@@ -139,8 +152,6 @@ public class DirectoryActivity extends AppCompatActivity {
         for (int i = 0; i < length; i++) {
             shopNameArray[i] = allShops.get(i).getName();
         }
-        // getIndexList(shopNameArray);
-        // displayIndex();
     }
 
     private class MyListAdapter extends ArrayAdapter<Shop> {
@@ -150,18 +161,19 @@ public class DirectoryActivity extends AppCompatActivity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
+            Shop currentShop;
             //Make sure view given is done
             View itemView = convertView;
             if (itemView == null) {
                 itemView = getLayoutInflater().inflate(R.layout.listview, parent, false);
             }
             //Find the shop
-            Shop currentShop = filteredShops.get(position);
+                currentShop = filteredShops.get(position);
 
             ImageView imageView = (ImageView) itemView.findViewById(R.id.shopPhoto);
             if (currentShop.getPhotoURL().isEmpty()) {
                 imageView.setImageResource(R.drawable.defaultimg);
-            } else{
+            } else {
                 Picasso.get().load(currentShop.getPhotoURL()).into(imageView);
             }
 
@@ -182,9 +194,8 @@ public class DirectoryActivity extends AppCompatActivity {
     public void getJson() {
         String json;
         try {
-
-            for(int i=0; i<shoppingMalls.length; i++) {
-                InputStream is = getAssets().open(shoppingMalls[i] + ".json");
+            for (int i = 0; i < shoppingMalls.length; i++) {
+                InputStream is = getAssets().open(  "Westgate.json");
                 int size = is.available();
                 byte[] buffer = new byte[size];
                 is.read(buffer);
@@ -199,6 +210,8 @@ public class DirectoryActivity extends AppCompatActivity {
                     JSONObject obj = jsonArray.getJSONObject(j);
                     allShops.add(new Shop(shoppingMalls[i], obj.getString("Name"), obj.getString("Address"), obj.getString("img_src"), obj.getString("Category")));
                 }
+
+                filteredShops = allShops;
             }
 
         } catch (IOException e) {
@@ -210,27 +223,30 @@ public class DirectoryActivity extends AppCompatActivity {
     }
 
     public void filterByCategories() {
-
-        filteredShops = allShops;
-
         if (!foodIsChecked) {
             filteredShops = allShops.stream().filter(p -> !("Food".equals(p.getCategory()))).collect(Collectors.toList());
-        } if (!fashionIsChecked){
+        }
+        if (!fashionIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Fashion".equals(p.getCategory()))).collect(Collectors.toList());
-        } if (!booksIsChecked){
+        }
+        if (!booksIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Books".equals(p.getCategory()))).collect(Collectors.toList());
-        } if(!entertainmentIsChecked){
+        }
+        if (!entertainmentIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Entertainment".equals(p.getCategory()))).collect(Collectors.toList());
-        } if(!supermartIsChecked){
+        }
+        if (!supermartIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Supermart".equals(p.getCategory()))).collect(Collectors.toList());
-        } if(!healthcareIsChecked){
+        }
+        if (!healthcareIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Healthcare".equals(p.getCategory()))).collect(Collectors.toList());
-        } if(!serviceIsChecked){
+        }
+        if (!serviceIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Service".equals(p.getCategory()))).collect(Collectors.toList());
-        } if(!othersIsChecked){
+        }
+        if (!othersIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Others".equals(p.getCategory()))).collect(Collectors.toList());
         }
-
     }
 }
 
