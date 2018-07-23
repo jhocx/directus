@@ -72,7 +72,9 @@ public class DirectoryActivity extends AppCompatActivity {
             healthcareIsChecked = bundle.getBoolean("healthcareIsChecked", false);
             serviceIsChecked = bundle.getBoolean("serviceIsChecked", false);
             othersIsChecked = bundle.getBoolean("othersIsChecked", false);
-            shoppingMalls = bundle.getStringArray("MY_KEY");
+            if(filterActivityOpened) {
+                shoppingMalls = bundle.getStringArray("MallsFromFilter");
+            } else shoppingMalls = bundle.getStringArray("MY_KEY");
             categoriesfiltered = true;
         }
 
@@ -81,7 +83,7 @@ public class DirectoryActivity extends AppCompatActivity {
         categoriesSelected.setText("No categories yet");
 
         //Update text view of categories selected, for debugging options
-        if (categoriesfiltered) {
+        if (filterActivityOpened) {
             if (foodIsChecked == true) {
                 categoriesString += "Food, ";
             }
@@ -250,7 +252,7 @@ public class DirectoryActivity extends AppCompatActivity {
         String json;
         try {
             for (int i = 0; i < shoppingMalls.length; i++) {
-                InputStream is = getAssets().open(  shoppingMalls[0] + ".json");
+                InputStream is = getAssets().open(  shoppingMalls[i] + ".json");
                 int size = is.available();
                 byte[] buffer = new byte[size];
                 is.read(buffer);

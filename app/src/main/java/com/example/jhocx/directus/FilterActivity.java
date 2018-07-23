@@ -191,7 +191,7 @@ public class FilterActivity extends AppCompatActivity {
         bundle.putBoolean("healthcareIsChecked", healthcareIsChecked);
         bundle.putBoolean("serviceIsChecked", serviceIsChecked);
         bundle.putBoolean("othersIsChecked", othersIsChecked);
-        bundle.putStringArray("MY_KEY", shoppingMalls );
+        bundle.putStringArray("MallsFromFilter", shoppingMalls );
         intentBundle.putExtras(bundle);
         startActivity(intentBundle);
     }
