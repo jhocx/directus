@@ -31,6 +31,7 @@ import java.util.stream.Collectors;
 public class DirectoryActivity extends AppCompatActivity {
     boolean filterActivityOpened; //if FilterActivity is opened
     boolean foodIsChecked, fashionIsChecked, booksIsChecked, entertainmentIsChecked, supermartIsChecked, healthcareIsChecked, serviceIsChecked, othersIsChecked; //if categories are chosen
+    boolean noneIsChecked = false;
     boolean searched = false; //if search is being done
     boolean categoriesfiltered = false;
     String categoriesString = "";
@@ -76,6 +77,10 @@ public class DirectoryActivity extends AppCompatActivity {
                 shoppingMalls = bundle.getStringArray("MallsFromFilter");
             } else shoppingMalls = bundle.getStringArray("MallsFromMain");
             categoriesfiltered = true;
+        }
+
+        if(!foodIsChecked && !fashionIsChecked && !booksIsChecked && !entertainmentIsChecked && !supermartIsChecked && !healthcareIsChecked && !serviceIsChecked && !othersIsChecked) {
+            noneIsChecked = true;
         }
 
         //Initialise categories textView
@@ -162,19 +167,17 @@ public class DirectoryActivity extends AppCompatActivity {
 
         if(!filterActivityOpened && !searched) {
             getJson();
-            if(shoppingMalls.length>1){
-                //java.util.Collections.sort(filteredShops, Collator.getInstance());
-            }
             populateListView();
         }
 
 
         if(filterActivityOpened){
             getJson();
-            if(shoppingMalls.length>1){
-                //java.util.Collections.sort(filteredShops, Collator.getInstance());
+
+            // if something is checked, filter
+            if(!noneIsChecked) {
+                filterByCategories();
             }
-            filterByCategories();
             populateListView();
         }
 
