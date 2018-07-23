@@ -25,6 +25,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.text.Collator;
 import java.util.Collections;
 
 
@@ -163,7 +164,7 @@ public class DirectoryActivity extends AppCompatActivity {
         if(!filterActivityOpened && !searched) {
             getJson();
             if(shoppingMalls.length>1){
-                //sortAlphabetically();
+                //java.util.Collections.sort(filteredShops, Collator.getInstance());
             }
             populateListView();
         }
@@ -172,7 +173,7 @@ public class DirectoryActivity extends AppCompatActivity {
         if(filterActivityOpened){
             getJson();
             if(shoppingMalls.length>1){
-                //sortAlphabetically();
+                //java.util.Collections.sort(filteredShops, Collator.getInstance());
             }
             filterByCategories();
             populateListView();
@@ -252,7 +253,7 @@ public class DirectoryActivity extends AppCompatActivity {
         String json;
         try {
             for (int i = 0; i < shoppingMalls.length; i++) {
-                InputStream is = getAssets().open(  shoppingMalls[i] + ".json");
+                InputStream is = getAssets().open(shoppingMalls[i] + ".json");
                 int size = is.available();
                 byte[] buffer = new byte[size];
                 is.read(buffer);
@@ -267,12 +268,14 @@ public class DirectoryActivity extends AppCompatActivity {
                     JSONObject obj = jsonArray.getJSONObject(j);
                     allShops.add(new Shop(shoppingMalls[i], obj.getString("Name"), obj.getString("Address"), obj.getString("img_src"), obj.getString("Category")));
                 }
+            }
 
-                filteredShops = allShops;
+                filteredShops = allShops.stream().sorted((shop1,shop2) -> shop1.getName().compareTo(shop2.getName())).collect(Collectors.toList());;
+
                 copyFilteredShops.addAll(filteredShops);
                 //Collections.copy(copyFilteredShops, filteredShops);
 
-            }
+
 
         } catch (IOException e) {
             e.printStackTrace();
