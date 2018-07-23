@@ -243,4 +243,19 @@
         app:layout_constraintStart_toStartOf="@+id/tbHeader"
         app:layout_constraintTop_toTopOf="@+id/tbHeader" />
 
+    <ImageButton
+        android:id="@+id/btninformation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:onClick="openInformation"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/information" />
+
 </android.support.constraint.ConstraintLayout>

@@ -1,6 +1,8 @@
 package com.example.jhocx.directus;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -211,12 +213,29 @@ public class FilterActivity extends AppCompatActivity {
         return filterActivityIsOpen;
     }
 
+    public void openInformation(View v) {
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(FilterActivity.this);
+        mBuilder.setTitle("Category Information");
+        mBuilder.setCancelable(false);
+        mBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int which) {
+                dialogInterface.dismiss();
+            }
+        });
+        AlertDialog mDialog = mBuilder.create();
+        mDialog.show();
+    }
+
+
+        //startActivity(new Intent(FilterActivity.this, MainActivity.class));
+    }
     /*
     public static void filterActivityIsOpen(boolean filterActivityIsOpen) {
         DayView.filterActivityIsOpen = filterActivityIsOpen;
     }
     */
-}
+
 
 
 

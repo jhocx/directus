@@ -25,8 +25,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.text.Collator;
-import java.util.Collections;
+
 
 
 public class DirectoryActivity extends AppCompatActivity {
@@ -75,7 +74,7 @@ public class DirectoryActivity extends AppCompatActivity {
             othersIsChecked = bundle.getBoolean("othersIsChecked", false);
             if(filterActivityOpened) {
                 shoppingMalls = bundle.getStringArray("MallsFromFilter");
-            } else shoppingMalls = bundle.getStringArray("MY_KEY");
+            } else shoppingMalls = bundle.getStringArray("MallsFromMain");
             categoriesfiltered = true;
         }
 
