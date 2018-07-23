@@ -22,11 +22,19 @@ public class FilterActivity extends AppCompatActivity {
     TextView t;
     CheckBox foodButton, fashionButton, booksButton, entertainmentButton, supermartButton, healthcareButton, serviceButton, othersButton;
     boolean foodIsChecked, fashionIsChecked, booksIsChecked, entertainmentIsChecked, supermartIsChecked, healthcareIsChecked, serviceIsChecked, othersIsChecked;
+    String[] shoppingMalls;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
+
+        Intent intentExtras = getIntent();
+        Bundle bundle = intentExtras.getExtras();
+
+        if (bundle != null) {
+            shoppingMalls = bundle.getStringArray("MY_KEY");
+        }
 
         if(!filterActivityIsOpen) {
             Toast.makeText(FilterActivity.this, "filterActivity first opened " + filterActivityIsOpen, Toast.LENGTH_LONG).show();
@@ -183,6 +191,7 @@ public class FilterActivity extends AppCompatActivity {
         bundle.putBoolean("healthcareIsChecked", healthcareIsChecked);
         bundle.putBoolean("serviceIsChecked", serviceIsChecked);
         bundle.putBoolean("othersIsChecked", othersIsChecked);
+        bundle.putStringArray("MY_KEY", shoppingMalls );
         intentBundle.putExtras(bundle);
         startActivity(intentBundle);
     }

@@ -25,48 +25,40 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.Map;
-
+import java.util.Collections;
 
 
 public class DirectoryActivity extends AppCompatActivity {
-    boolean filterActivityOpened, mainActivityOpened;
-    boolean foodIsChecked, fashionIsChecked, booksIsChecked, entertainmentIsChecked, supermartIsChecked, healthcareIsChecked, serviceIsChecked, othersIsChecked;
-    boolean categoriesFiltered = false;
-    TextView categoriesSelected, mallsSelected;
+    boolean filterActivityOpened; //if FilterActivity is opened
+    boolean foodIsChecked, fashionIsChecked, booksIsChecked, entertainmentIsChecked, supermartIsChecked, healthcareIsChecked, serviceIsChecked, othersIsChecked; //if categories are chosen
+    boolean searched = false; //if search is being done
+    boolean categoriesfiltered = false;
     String categoriesString = "";
+    String searchItem;
 
-    //Map<String, Integer> mapIndex;
-    private List<Shop> allShops = new ArrayList<Shop>();
-    private List<Shop> filteredShops = new ArrayList<>();
+    private List<Shop> allShops = new ArrayList<Shop>(); //all shops from json, without filtering
+    private List<Shop> filteredShops = new ArrayList<>(); //filtered shops from json, after filtering
+    private List<Shop> copyFilteredShops = new ArrayList<>(); //copy of filtered shops to revert if original filtered list is changed
 
-    ListView list;
     int length;
-    String[] shopNameArray;
-    String[] shoppingMalls = {"Westgate"};
+    //String[] shopNameArray;
+    String[] shoppingMalls;
 
-    //To make search view only focusable on touch
-    private View rootView;
+    private View rootView;     //to make search view only focusable on touch
+    TextView categoriesSelected, mallsSelected; //Test views
+    private ListView list;
     private SearchView searchView;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_directory);
 
+
+        //To check if filterActivity has been opened yet
         filterActivityOpened = FilterActivity.filterActivityIsOpen();
 
-        rootView = findViewById(R.id.root_layout);
-        searchView = (SearchView) findViewById(R.id.search);
-
-        //Initialise categories textView
-        categoriesSelected = (TextView) findViewById(R.id.categoriesSelected);
-        categoriesSelected.setText("No categories yet");
-
-        if(!filterActivityOpened) {
-            getJson();
-            populateListView();
-        }
-
+        //To obtain values from other activities
         Intent intentExtras = getIntent();
         Bundle bundle = intentExtras.getExtras();
 
@@ -80,13 +72,16 @@ public class DirectoryActivity extends AppCompatActivity {
             healthcareIsChecked = bundle.getBoolean("healthcareIsChecked", false);
             serviceIsChecked = bundle.getBoolean("serviceIsChecked", false);
             othersIsChecked = bundle.getBoolean("othersIsChecked", false);
-            shopNameArray = bundle.getStringArray("MY_KEY");
-            //Toast.makeText(this, "bundle non-null", Toast.LENGTH_LONG).show();
-            categoriesFiltered = true;
+            shoppingMalls = bundle.getStringArray("MY_KEY");
+            categoriesfiltered = true;
         }
 
+        //Initialise categories textView
+        categoriesSelected = (TextView) findViewById(R.id.categoriesSelected);
+        categoriesSelected.setText("No categories yet");
+
         //Update text view of categories selected, for debugging options
-        if (categoriesFiltered == true) {
+        if (categoriesfiltered) {
             if (foodIsChecked == true) {
                 categoriesString += "Food, ";
             }
@@ -114,13 +109,74 @@ public class DirectoryActivity extends AppCompatActivity {
             categoriesSelected.setText(categoriesString);
         }
 
-        Toast.makeText(this, shopNameArray[0], Toast.LENGTH_LONG).show();
+
+        rootView = findViewById(R.id.root_layout);
+        searchView = findViewById(R.id.search);
+
+        /*For search purposes, if search is submitted, search entries are returned, if any edits (like backspace),
+        it is reverted to filtered list or all list.
+         */
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                    searched = true;
+                    searchItem = query;
+                    filteredShops = filter(filteredShops, query);
+                    Toast.makeText(DirectoryActivity.this, "filtered shops" +Integer.toString(filteredShops.size()), Toast.LENGTH_LONG).show();
+                    populateListView();
+                    return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                searched = true;
+                searchItem = newText;
+                filteredShops.clear();
+                filteredShops.addAll(copyFilteredShops);
+                //filteredShops = copyFilteredShops.clone();
+                //Toast.makeText(DirectoryActivity.this, "I am changed", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(DirectoryActivity.this, "copyFiltered shops" + Integer.toString(copyFilteredShops.size()), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(DirectoryActivity.this, "filtered shops" + Integer.toString(filteredShops.size()), Toast.LENGTH_SHORT).show();
+                populateListView();
+                return false;
+            }
+            private List<Shop> filter(List<Shop> shops, String query) {
+                query = query.toLowerCase();
+
+                final List<Shop> searchedShopList = new ArrayList<>();
+                for (Shop shop : shops) {
+                    final String text = shop.getName().toLowerCase();
+                    if (text.contains(query)) {
+                        searchedShopList.add(shop);
+                    }
+                }
+                return searchedShopList;
+            }
+        });
+
+
+
+
+        if(!filterActivityOpened && !searched) {
+            getJson();
+            if(shoppingMalls.length>1){
+                //sortAlphabetically();
+            }
+            populateListView();
+        }
+
 
         if(filterActivityOpened){
             getJson();
+            if(shoppingMalls.length>1){
+                //sortAlphabetically();
+            }
             filterByCategories();
             populateListView();
         }
+
+
 
     }
 
@@ -134,7 +190,11 @@ public class DirectoryActivity extends AppCompatActivity {
 
 
     public void openFilterActivity(View v) {
-        startActivity(new Intent(DirectoryActivity.this, FilterActivity.class));
+        Intent intent = new Intent(this, FilterActivity.class);
+        Bundle b = new Bundle();
+        b.putStringArray("MY_KEY", shoppingMalls);
+        intent.putExtras(b);
+        startActivity(intent);
     }
 
     public void backToMain(View v) {
@@ -147,11 +207,6 @@ public class DirectoryActivity extends AppCompatActivity {
         ArrayAdapter<Shop> adapter = new MyListAdapter();
         ListView list = (ListView) findViewById(R.id.shopListView);
         list.setAdapter(adapter);
-
-        shopNameArray = new String[length];
-        for (int i = 0; i < length; i++) {
-            shopNameArray[i] = allShops.get(i).getName();
-        }
     }
 
     private class MyListAdapter extends ArrayAdapter<Shop> {
@@ -195,7 +250,7 @@ public class DirectoryActivity extends AppCompatActivity {
         String json;
         try {
             for (int i = 0; i < shoppingMalls.length; i++) {
-                InputStream is = getAssets().open(  "Westgate.json");
+                InputStream is = getAssets().open(  shoppingMalls[0] + ".json");
                 int size = is.available();
                 byte[] buffer = new byte[size];
                 is.read(buffer);
@@ -212,6 +267,9 @@ public class DirectoryActivity extends AppCompatActivity {
                 }
 
                 filteredShops = allShops;
+                copyFilteredShops.addAll(filteredShops);
+                //Collections.copy(copyFilteredShops, filteredShops);
+
             }
 
         } catch (IOException e) {
@@ -247,7 +305,11 @@ public class DirectoryActivity extends AppCompatActivity {
         if (!othersIsChecked) {
             filteredShops = filteredShops.stream().filter(p -> !("Others".equals(p.getCategory()))).collect(Collectors.toList());
         }
+        copyFilteredShops.clear();
+        copyFilteredShops.addAll(filteredShops);
+
     }
+
 }
 
 
