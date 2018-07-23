@@ -146,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     if (distanceChanged) {
                         distanceChanged = false;
+                        mUserMalls.clear();
                         // Algorithm for determining distance between 2 coordinate points.
                         // A LAT LON distance calculator: https://www.movable-type.co.uk/scripts/latlong.html
                         // Algorithm retrieved from https://stackoverflow.com/questions/3694380/calculating-distance-between-two-points-using-latitude-longitude-what-am-i-doi
@@ -226,19 +227,27 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int which) {
                         String item = "";
+                        item = Arrays.toString(mUserMalls.toArray());
+                        /*
                         for (int i = 0; i < mUserMalls.size(); i++) {
                             if (mUserMalls.get(i) != null) {
                                 item = item + mUserMalls.get(i);
                             }
-                            // append a comma at the end if item is not the last item.
+                            // append a newline character at the end if item is not the last item.
                             if (i != mUserMalls.size() - 1) {
                                 item = item + "\n";
                             }
                         }
-                        if (item == "") {
-                            tvMallsSelected.setText(getString(R.string.MA_tvMallsSelectedDefault));
+                        */
+                        int counter = 0;
+                        for (int i=0; i < mUserMalls.size(); i++) {
+                            if (mUserMalls.get(i) != null) {
+                                counter++;
+                            }
                         }
-                        tvMallsSelected.setText(item);
+                        if (counter > 0) {
+                            tvMallsSelected.setText(item);
+                        } else tvMallsSelected.setText(getString(R.string.MA_tvMallsSelectedDefault));
                     }
                 });
                 mBuilder.setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
