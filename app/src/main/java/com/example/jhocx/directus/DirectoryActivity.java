@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -130,7 +129,6 @@ public class DirectoryActivity extends AppCompatActivity {
                     searched = true;
                     searchItem = query;
                     filteredShops = filter(filteredShops, query);
-                    Toast.makeText(DirectoryActivity.this, "filtered shops" +Integer.toString(filteredShops.size()), Toast.LENGTH_LONG).show();
                     populateListView();
                     return false;
             }
@@ -142,9 +140,6 @@ public class DirectoryActivity extends AppCompatActivity {
                 filteredShops.clear();
                 filteredShops.addAll(copyFilteredShops);
                 //filteredShops = copyFilteredShops.clone();
-                //Toast.makeText(DirectoryActivity.this, "I am changed", Toast.LENGTH_SHORT).show();
-                //Toast.makeText(DirectoryActivity.this, "copyFiltered shops" + Integer.toString(copyFilteredShops.size()), Toast.LENGTH_SHORT).show();
-                //Toast.makeText(DirectoryActivity.this, "filtered shops" + Integer.toString(filteredShops.size()), Toast.LENGTH_SHORT).show();
                 populateListView();
                 return false;
             }
@@ -273,7 +268,7 @@ public class DirectoryActivity extends AppCompatActivity {
             }
 
                 filteredShops = allShops.stream().sorted((shop1,shop2) -> shop1.getName().compareTo(shop2.getName())).collect(Collectors.toList());;
-
+                copyFilteredShops.clear();
                 copyFilteredShops.addAll(filteredShops);
                 //Collections.copy(copyFilteredShops, filteredShops);
 

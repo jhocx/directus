@@ -1,0 +1,50 @@
+[
+ {
+   "Name": "Actual food",
+   "Address": "B2-06",
+   "Phone": "+65 9732 8163",
+   "text": "For those who love a little heat, 328 Katong Laksa serves up a bowl of spicy broth enriched with creamy coconut milk and the taste of seafood. Pair it with our signature Otak Otak, it will make breaking a sweat worth it!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/westgate/Banner_328KatongLaksaWG.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Barbeque",
+   "Address": "B2-K13",
+   "Phone": "+65 6779 8980",
+   "text": "85 Redhill Teochew Fishball Noodles specialises in Teochew Style Fishball Noodles that preserves the nostalgic flavour and taste. Served with a generous portion of Handmade Teochew Fishball and Fishcake that is light and bouncy but dense in flavour, 85 Redhill Teochew Fishball Noodles will keep you hooked!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/r/85%20redhill.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Char Kuey Teow",
+   "Address": "03-05",
+   "Phone": "+65 6369 9488",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/aburi%20sushi%20heishiro_logo_website_b06ae14b-38eb-420f-b455-4a80ee6432e2_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Massage Parlour",
+   "Address": "02-40C",
+   "Phone": "+65 8822 4567",
+   "text": "Relax your mind and body at Adrift Anapauo with our range of massage services including Foot Reflexology, Body Massages and Aroma Candle Therapy.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/adrift%20anapauo%20massage%20spa_1%20website%20directory%20560%20x%20462_v2_907e993d-43d6-4a52-a478-234ef28fee13_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "The laptop shop",
+   "Address": "01-27",
+   "Phone": "",
+   "text": "Aesop retails skin, hair and body care products that are formulated using the finest plant-based and laboratory-made ingredients. From cleansers that restore the balance of your skin to treatments that combat ageing, Aesop has the perfect personal care solutions for you.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/westgate/HBannerAESOP_WG.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "ZAdidas",
+   "Address": "B1-18",
+   "Phone": "+65 6339 0556",
+   "text": "Look good and feel great with AIBI! Exercise at the comfort of your own home. AIBI takes on a holistic 3-pronged approach of Health, Beauty and Fitness to achieve quality lifestyle for all individuals at every stage of your life. AIBI constantly brings in the latest and innovative products to improve your exercise experience.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/a/aibi_560i.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ }
+  ]
