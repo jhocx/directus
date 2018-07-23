@@ -61,7 +61,7 @@
         android:id="@+id/tbHeader"
         android:layout_width="0dp"
         android:layout_height="47dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:background="#B0132D"
         android:gravity="bottom"
         android:minHeight="?attr/actionBarSize"
@@ -150,20 +150,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnGetLoc"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        android:text="Update GPS"
-        android:textColor="@android:color/black"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tbHeader"
-        app:layout_constraintEnd_toEndOf="@+id/tbHeader"
-        app:layout_constraintTop_toTopOf="@+id/tbHeader" />
 
     <TextView
         android:id="@+id/tvLocation"
