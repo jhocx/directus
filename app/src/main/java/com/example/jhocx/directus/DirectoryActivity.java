@@ -7,10 +7,11 @@ import android.content.Intent;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.SectionIndexer;
 import android.widget.TextView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,7 +24,10 @@ import com.squareup.picasso.Picasso;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 
@@ -188,8 +192,6 @@ public class DirectoryActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        Toast.makeText(this, "onResume", Toast.LENGTH_LONG).show();
-
         searchView.setQuery("", false);
         rootView.requestFocus();
     }
@@ -215,15 +217,37 @@ public class DirectoryActivity extends AppCompatActivity {
         list.setAdapter(adapter);
     }
 
-    private class MyListAdapter extends ArrayAdapter<Shop> {
+    private class MyListAdapter extends ArrayAdapter<Shop> implements SectionIndexer{
+        HashMap<String,Integer> alphaIndexer;
+        String[] sections;
+
         public MyListAdapter() {
             super(DirectoryActivity.this, R.layout.listview, filteredShops);
-        }
+            this.alphaIndexer = new HashMap<String, Integer>();
+            int size = filteredShops.size();
+
+            for(int i=0; i<size; i++) {
+                String s = filteredShops.get(i).getName();
+                String ch = s.substring(0, 1);
+                ch = ch.toUpperCase();
+                if (!alphaIndexer.containsKey(ch)) {
+                    alphaIndexer.put(ch, i);
+                }
+            }
+            Set<String> sectionLetters = alphaIndexer.keySet();
+            ArrayList<String> sectionList = new ArrayList<String>(sectionLetters);
+            Collections.sort(sectionList);
+            this.sections = new String[sectionList.size()];
+            sectionList.toArray(sections);
+            }
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             Shop currentShop;
             //Make sure view given is done
+            LinearLayout ll = new LinearLayout(DirectoryActivity.this);
+            ll.setOrientation(LinearLayout.VERTICAL);
+
             View itemView = convertView;
             if (itemView == null) {
                 itemView = getLayoutInflater().inflate(R.layout.listview, parent, false);
@@ -248,7 +272,25 @@ public class DirectoryActivity extends AppCompatActivity {
             TextView shoppingMall = (TextView) itemView.findViewById(R.id.shoppingMall);
             shoppingMall.setText(currentShop.getShoppingMall());
 
+            ll.addView(itemView);
+
             return itemView;
+        }
+
+        @Override
+        public int getSectionForPosition(int position) {
+            return 0;
+        }
+
+        @Override
+        public int getPositionForSection(int sectionIndex) {
+            return alphaIndexer.get(sections[sectionIndex]);
+
+        }
+
+        @Override
+        public String[] getSections() {
+            return sections;
         }
     }
 

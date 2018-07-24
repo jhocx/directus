@@ -6,5 +6,9 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">false</item>
         <item name="colorPrimary">@android:color/background_light</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/custom_scrollbar</item>
     </style>
+
+
 </resources>

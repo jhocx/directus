@@ -13,7 +13,6 @@ import android.util.Log;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.CompoundButton;
 import android.app.Activity;
-import android.widget.Toast;
 
 
 
@@ -39,7 +38,6 @@ public class FilterActivity extends AppCompatActivity {
         }
 
         if(!filterActivityIsOpen) {
-            Toast.makeText(FilterActivity.this, "filterActivity first opened " + filterActivityIsOpen, Toast.LENGTH_LONG).show();
             foodButton = (CheckBox) findViewById(R.id.food);
             foodButton.setChecked(false);
             fashionButton = (CheckBox) findViewById(R.id.fashion);
