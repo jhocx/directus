@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -74,7 +75,10 @@ public class DirectoryActivity extends AppCompatActivity {
             othersIsChecked = bundle.getBoolean("othersIsChecked", false);
             if(filterActivityOpened) {
                 shoppingMalls = bundle.getStringArray("MallsFromFilter");
-            } else shoppingMalls = bundle.getStringArray("MallsFromMain");
+            }
+            if(shoppingMalls == null) {
+                shoppingMalls = bundle.getStringArray("MallsFromMain");
+            }
             categoriesfiltered = true;
         }
 
@@ -183,6 +187,8 @@ public class DirectoryActivity extends AppCompatActivity {
     //To make search view focusable on touch
     protected void onResume() {
         super.onResume();
+
+        Toast.makeText(this, "onResume", Toast.LENGTH_LONG).show();
 
         searchView.setQuery("", false);
         rootView.requestFocus();
