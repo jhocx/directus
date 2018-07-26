@@ -315,7 +315,7 @@ public class DirectoryActivity extends AppCompatActivity {
                 }
             }
 
-                filteredShops = allShops.stream().sorted((shop1,shop2) -> shop1.getName().compareTo(shop2.getName())).collect(Collectors.toList());;
+                filteredShops = allShops.stream().sorted((shop1, shop2) -> shop1.getName().compareToIgnoreCase(shop2.getName())).collect(Collectors.toList());;
                 copyFilteredShops.clear();
                 copyFilteredShops.addAll(filteredShops);
                 //Collections.copy(copyFilteredShops, filteredShops);
