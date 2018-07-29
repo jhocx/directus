@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     SeekBar seekBar;
     TextView tvHeader, textView, textView2;
-    TextView tvMallsSelected, tvLocation;
+    TextView tvMallsSelected; //, tvLocation;
     Button btnSelectMall, btnToDirectory;
     double userLat, userLon;
     static DecimalFormat df3 = new DecimalFormat(".###");
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         btnSelectMall = (Button) findViewById(R.id.btnSelectMall);
         tvMallsSelected = (TextView) findViewById(R.id.tvMallsSelected);
         tvMallsSelected.setText(getString(R.string.MA_tvMallsSelectedDefault));
-        tvLocation = (TextView) findViewById(R.id.tvLocation);
+        // tvLocation = (TextView) findViewById(R.id.tvLocation);
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 123);
 
         btnSelectMall.setOnClickListener(new View.OnClickListener() {
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 if (l!= null) {
                     double lat = l.getLatitude();
                     double lon = l.getLongitude();
-                    tvLocation.setText("Current GPS Location: LAT = " + df3.format(lat) + ", LON = " + df3.format(lon));
+                    // tvLocation.setText("Current GPS Location: LAT = " + df3.format(lat) + ", LON = " + df3.format(lon));
                     userLat = lat;
                     userLon = lon;
                 }
