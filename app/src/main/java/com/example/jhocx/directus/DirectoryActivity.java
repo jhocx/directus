@@ -52,7 +52,6 @@ public class DirectoryActivity extends AppCompatActivity {
 
     private View rootView;     //to make search view only focusable on touch
     TextView categoriesSelect, mallsSelect, mallsSelected, directory; //Test views
-    private ListView list;
     private SearchView searchView;
 
 
