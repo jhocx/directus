@@ -1,5 +1,6 @@
 package com.example.jhocx.directus;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,7 +51,7 @@ public class DirectoryActivity extends AppCompatActivity {
     String[] shoppingMalls;
 
     private View rootView;     //to make search view only focusable on touch
-    TextView categoriesSelected, mallsSelected; //Test views
+    TextView categoriesSelected, mallsSelected, directory; //Test views
     private ListView list;
     private SearchView searchView;
 
@@ -59,6 +60,14 @@ public class DirectoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_directory);
 
+        // Changes the font to Roboto-Light.
+        mallsSelected = (TextView) findViewById(R.id.mallsSelected);
+        categoriesSelected = (TextView) findViewById(R.id.categoriesSelected);
+        directory = (TextView) findViewById(R.id.directory);
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        mallsSelected.setTypeface(myCustomFont);
+        categoriesSelected.setTypeface(myCustomFont);
+        directory.setTypeface(myCustomFont);
 
         //To check if filterActivity has been opened yet
         filterActivityOpened = FilterActivity.filterActivityIsOpen();

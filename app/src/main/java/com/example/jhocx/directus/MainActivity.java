@@ -107,8 +107,6 @@ public class MainActivity extends AppCompatActivity {
                         JSONArray jsonArray = new JSONArray(json);
                         listNearby = new String[jsonArray.length()];
 
-                        TextView testMall = (TextView) findViewById(R.id.testMall);
-
                         final int earthRadius = 6371000;
                         int arrayCounter = 0;
                         for (int i=0; i< jsonArray.length(); i++) {
@@ -137,7 +135,6 @@ public class MainActivity extends AppCompatActivity {
                             listNearbyTrimmed[i] = listNearby[i];
                         }
                         checkedMalls = new boolean[arrayCounter];
-                        testMall.setText("The malls nearby are: " + Arrays.toString(listNearbyTrimmed));
                     } catch (IOException e) {
                         e.printStackTrace();
                     } catch (JSONException e) {
@@ -161,8 +158,6 @@ public class MainActivity extends AppCompatActivity {
                             String json = new String(buffer, "UTF-8");
                             JSONArray jsonArray = new JSONArray(json);
                             listNearby = new String[jsonArray.length()];
-
-                            TextView testMall = (TextView) findViewById(R.id.testMall);
 
                             final int earthRadius = 6371000;
                             int arrayCounter = 0;
@@ -192,7 +187,6 @@ public class MainActivity extends AppCompatActivity {
                                 listNearbyTrimmed[i] = listNearby[i];
                             }
                             checkedMalls = new boolean[arrayCounter];
-                            testMall.setText("The malls nearby are: " + Arrays.toString(listNearbyTrimmed));
                         } catch (IOException e) {
                             e.printStackTrace();
                         } catch (JSONException e) {

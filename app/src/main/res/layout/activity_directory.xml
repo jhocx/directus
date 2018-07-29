@@ -68,14 +68,14 @@ tools:context=".DirectoryActivity">
         android:id="@+id/directoryHeader"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:background="@color/directUs_red"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tbHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/categoriesSelected" />
 
     <TextView
         android:id="@+id/directory"
@@ -133,11 +133,11 @@ tools:context=".DirectoryActivity">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="10dp"
         android:text="TextView"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tbHeader" />
 
     <ListView
         android:id="@+id/shopListView"
