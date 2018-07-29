@@ -25,6 +25,7 @@ import com.squareup.picasso.Picasso;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -39,7 +40,7 @@ public class DirectoryActivity extends AppCompatActivity {
     boolean noneIsChecked = false;
     boolean searched = false; //if search is being done
     boolean categoriesfiltered = false;
-    String categoriesString = "";
+    ArrayList<String> categoriesArr = new ArrayList<>();
     String searchItem;
 
     private List<Shop> allShops = new ArrayList<Shop>(); //all shops from json, without filtering
@@ -47,11 +48,10 @@ public class DirectoryActivity extends AppCompatActivity {
     private List<Shop> copyFilteredShops = new ArrayList<>(); //copy of filtered shops to revert if original filtered list is changed
 
     int length;
-    //String[] shopNameArray;
     String[] shoppingMalls;
 
     private View rootView;     //to make search view only focusable on touch
-    TextView categoriesSelected, mallsSelected, directory; //Test views
+    TextView categoriesSelect, mallsSelect, mallsSelected, directory; //Test views
     private ListView list;
     private SearchView searchView;
 
@@ -62,12 +62,15 @@ public class DirectoryActivity extends AppCompatActivity {
 
         // Changes the font to Roboto-Light.
         mallsSelected = (TextView) findViewById(R.id.mallsSelected);
-        categoriesSelected = (TextView) findViewById(R.id.categoriesSelected);
+        categoriesSelect = (TextView) findViewById(R.id.categoriesSelect);
         directory = (TextView) findViewById(R.id.directory);
+        mallsSelect  = (TextView) findViewById(R.id.mallsSelect);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
         mallsSelected.setTypeface(myCustomFont);
-        categoriesSelected.setTypeface(myCustomFont);
+        categoriesSelect.setTypeface(myCustomFont);
+        mallsSelect.setTypeface(myCustomFont);
         directory.setTypeface(myCustomFont);
+
 
         //To check if filterActivity has been opened yet
         filterActivityOpened = FilterActivity.filterActivityIsOpen();
@@ -100,36 +103,38 @@ public class DirectoryActivity extends AppCompatActivity {
         }
 
         //Initialise categories textView
-        categoriesSelected = (TextView) findViewById(R.id.categoriesSelected);
-        categoriesSelected.setText("No categories yet");
+        mallsSelect.setText(Arrays.toString(shoppingMalls));
+        categoriesSelect.setText("No categories yet");
 
         //Update text view of categories selected, for debugging options
         if (filterActivityOpened) {
             if (foodIsChecked == true) {
-                categoriesString += "Food, ";
+                categoriesArr.add("Food");
             }
             if (fashionIsChecked == true) {
-                categoriesString += "Fashion, ";
+                categoriesArr.add("Fashion");
             }
             if (booksIsChecked == true) {
-                categoriesString += "Books, ";
+                categoriesArr.add("Books");
             }
             if (entertainmentIsChecked == true) {
-                categoriesString += "Entertainment, ";
+                categoriesArr.add("Entertainment");
             }
             if (supermartIsChecked == true) {
-                categoriesString += "Supermarket, ";
+                categoriesArr.add("Supermart");
             }
             if (healthcareIsChecked == true) {
-                categoriesString += "Healthcare, ";
+                categoriesArr.add("Healthcare");
             }
             if (serviceIsChecked == true) {
-                categoriesString += "Service, ";
+                categoriesArr.add("Service");
             }
             if (othersIsChecked == true) {
-                categoriesString += "Others.";
+                categoriesArr.add("Others");
             }
-            categoriesSelected.setText(categoriesString);
+            if(categoriesArr.size()!=0) {
+                categoriesSelect.setText(Arrays.toString(categoriesArr.toArray()));
+            } else categoriesSelect.setText("No categories yet");
         }
 
 

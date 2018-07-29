@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
@@ -213,7 +214,9 @@ public class FilterActivity extends AppCompatActivity {
 
     public void openInformation(View v) {
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(FilterActivity.this);
-        mBuilder.setTitle("Category Information");
+        LayoutInflater factory = LayoutInflater.from(FilterActivity.this);
+        final View view = factory.inflate(R.layout.imageview, null);
+        mBuilder.setView(view);
         mBuilder.setCancelable(false);
         mBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override

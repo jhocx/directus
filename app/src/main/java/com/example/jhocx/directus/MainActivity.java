@@ -9,6 +9,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
@@ -300,23 +301,40 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openDirectoryActivity(View v) {
-        Intent intent = new Intent(this, DirectoryActivity.class);
-        Bundle b = new Bundle();
-        for (int i=0; i<mUserMalls.size(); i++) {
-            if (mUserMalls.get(i) != null) {
-                noOfMallsSelected++;
+
+        if(mUserMalls.size() == 0){
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
+            mBuilder.setCancelable(false);
+            mBuilder.setTitle("Error");
+            mBuilder.setMessage("Please select at least 1 mall");
+            mBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int which) {
+                    dialogInterface.dismiss();
+                }
+            });
+            AlertDialog mDialog = mBuilder.create();
+            mDialog.show();
+        } else {
+
+            Intent intent = new Intent(this, DirectoryActivity.class);
+            Bundle b = new Bundle();
+            for (int i = 0; i < mUserMalls.size(); i++) {
+                if (mUserMalls.get(i) != null) {
+                    noOfMallsSelected++;
+                }
             }
-        }
-        mUserMallsString = new String[noOfMallsSelected];
-        int j=0;
-        for (int i = 0; i < mUserMalls.size(); i++) {
-            if (mUserMalls.get(i) != null) {
-                mUserMallsString[j] = mUserMalls.get(i);
-                j++;
+            mUserMallsString = new String[noOfMallsSelected];
+            int j = 0;
+            for (int i = 0; i < mUserMalls.size(); i++) {
+                if (mUserMalls.get(i) != null) {
+                    mUserMallsString[j] = mUserMalls.get(i);
+                    j++;
+                }
             }
+            b.putStringArray("MallsFromMain", mUserMallsString);
+            intent.putExtras(b);
+            startActivity(intent);
         }
-        b.putStringArray("MallsFromMain", mUserMallsString);
-        intent.putExtras(b);
-        startActivity(intent);
     }
 }
