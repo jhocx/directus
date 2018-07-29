@@ -1,50 +1,1018 @@
 [
  {
-   "Name": "Actual food",
-   "Address": "B2-06",
-   "Phone": "+65 9732 8163",
-   "text": "For those who love a little heat, 328 Katong Laksa serves up a bowl of spicy broth enriched with creamy coconut milk and the taste of seafood. Pair it with our signature Otak Otak, it will make breaking a sweat worth it!",
-   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/westgate/Banner_328KatongLaksaWG.jpg.transform/cap-highres/image.jpg",
-   "Category": "Food"
- },
- {
-   "Name": "Barbeque",
-   "Address": "B2-K13",
-   "Phone": "+65 6779 8980",
-   "text": "85 Redhill Teochew Fishball Noodles specialises in Teochew Style Fishball Noodles that preserves the nostalgic flavour and taste. Served with a generous portion of Handmade Teochew Fishball and Fishcake that is light and bouncy but dense in flavour, 85 Redhill Teochew Fishball Noodles will keep you hooked!",
-   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/r/85%20redhill.jpg.transform/cap-highres/image.jpg",
-   "Category": "Food"
- },
- {
-   "Name": "Char Kuey Teow",
-   "Address": "03-05",
-   "Phone": "+65 6369 9488",
-   "text": "",
-   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/aburi%20sushi%20heishiro_logo_website_b06ae14b-38eb-420f-b455-4a80ee6432e2_560x462.jpg.transform/cap-highres/image.jpg",
-   "Category": "Food"
- },
- {
-   "Name": "Massage Parlour",
-   "Address": "02-40C",
-   "Phone": "+65 8822 4567",
-   "text": "Relax your mind and body at Adrift Anapauo with our range of massage services including Foot Reflexology, Body Massages and Aroma Candle Therapy.",
-   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/adrift%20anapauo%20massage%20spa_1%20website%20directory%20560%20x%20462_v2_907e993d-43d6-4a52-a478-234ef28fee13_560x462.jpg.transform/cap-highres/image.jpg",
-   "Category": "Service"
- },
- {
-   "Name": "The laptop shop",
-   "Address": "01-27",
+   "Name": "2PM",
+   "Address": "02-09A",
    "Phone": "",
-   "text": "Aesop retails skin, hair and body care products that are formulated using the finest plant-based and laboratory-made ingredients. From cleansers that restore the balance of your skin to treatments that combat ageing, Aesop has the perfect personal care solutions for you.",
-   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/westgate/HBannerAESOP_WG.jpg.transform/cap-highres/image.jpg",
+   "text": "2PM sells ladies fashion apparels which includes dresses, skirts and blouse.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/other/2pm_20160510_173715_4a8d58b1-d08d-42f9-898f-460884f73663_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "4G Mobile",
+   "Address": "02-102",
+   "Phone": "",
+   "text": "4G Mobile retails new and preloved mobile phones, mobile accessories and also prepaid SIM card. Top up services are also available.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/other/4g%20mobile_20160725_160004_904f242f-6f63-4b2c-ab95-f8d670e9d7bd_560x462.jpg.transform/cap-highres/image.jpg",
    "Category": "Others"
  },
  {
-   "Name": "ZAdidas",
-   "Address": "B1-18",
-   "Phone": "+65 6339 0556",
-   "text": "Look good and feel great with AIBI! Exercise at the comfort of your own home. AIBI takes on a holistic 3-pronged approach of Health, Beauty and Fitness to achieve quality lifestyle for all individuals at every stage of your life. AIBI constantly brings in the latest and innovative products to improve your exercise experience.",
-   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/a/aibi_560i.jpg.transform/cap-highres/image.jpg",
+   "Name": "About Blank",
+   "Address": "02-04A",
+   "Phone": "",
+   "text": "Stylish and trendy ladies' apparel.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/about%20blank_all%20blank_3c5417b7-6533-4d91-8419-e5795a3be131_600x500.jpg.transform/cap-highres/image.jpg",
    "Category": "Fashion"
+ },
+ {
+   "Name": "Admire",
+   "Address": "02-29",
+   "Phone": "",
+   "text": "Be sure to turn heads when you dress your best in apparels from Admire. Offering a collection of the newest street styles, there has got to be a silhouette for you.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/admire_admire%20logo_51dd58d2-fc4a-4cc0-9251-1e16fed18b6c_560x462.png.transform/cap-highres/image.png",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Ah Mah Homemade Cake",
+   "Address": "B1-K12",
+   "Phone": "",
+   "text": "Ah Mah Homemade Cake, a well-loved best seller of castellan cakes in Malaysia, was first launched in Restoran Poh Yap, Kota Kemuning, Malaysia, on 7 April 2017. The brand and its delicious castella cakes quickly soared in popularity and within the short span of two months, opened 14 outlets across the country. Inspired by the popular egg sponge cakes originating from Tamsui (Danshui), Taiwan, Chef Jim of Ah Mah Homemade Cake has adapted traditional recipe and put a local twist on it. The cakes are freshly made every day on the spot and each batch is lovingly baked for 80 minutes.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/Ah%20Ma%20logo_21%20Jun%2017_Website.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "AJI ICHI",
+   "Address": "01-07",
+   "Phone": "",
+   "text": "AJI ICHI is another “Value For Money” concept by ASTONS, serving quality, authentic, affordable and delicious Japanese foodin a comfortable and casual ambience. AJI ICHI uses only the most premium Niigata Koshihikari rice, US beef, signature thick and creamy homemade Tonkotsu broth that has been simmered for 12 hours. The menu features an extensive range of donburi, ramen, nabemono,tendon, sushi and sashimi.",
+   "img_src": "https://www.capitaland.com/content/dam/Aji%20Ichi.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Astons Specialities",
+   "Address": "03-03, 03-18, 03-18A",
+   "Phone": "+65 6334 7072",
+   "text": "Astons serves up quality western food at affordable prices. With mains accompanied by any 2 of their side dishes and pastas accompanied by the soup of the day, Astons is the place to go for hearty, satisfying meals. First Timers have to try he all-time favorite Chargrill Chicken which goes hand in hand with the creamy richness of their inhouse Potato Salad and crispy Onion Rings. For you big eaters out there, double it up with the Double Up Chicken when you get to choose 2 choices of chicken.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/astons_aston_3e7e895b-4ea5-44ea-a40c-7dedd6f44749_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Avone Beauty Secrets",
+   "Address": "02-12",
+   "Phone": "+65 6592 0788",
+   "text": "Have your perfect set of brows beautifully crafted by the embroidery specialists at Avone Beauty Secrets. They offer other services such as fanciful nailworks, beauty facials, relaxing spa treatments and embroidery faceworks.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/avone_avone%20logo%20for%20jcube_9a0e8936-f9c0-41f7-afe1-377ed91ed413_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": ""
+ },
+ {
+   "Name": "Ayam Penyet President",
+   "Address": "01-05",
+   "Phone": "+65 6734 0786",
+   "text": "Ayam Penyet President serves delicious and authentic Indonesian food.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/ayam%20penyet%20president_ayampenyet%202_d6b5c464-76df-4b4f-8843-1cfa0dda1381_600x500.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Bagbox",
+   "Address": "02-28",
+   "Phone": "",
+   "text": "Carrying vibrant closet essentials that are easy to mix and match , never have to worry about not knowing what to wear tomorrow again! With abstract prints that are understated and wearable, enjoy great fashion at pocket friendly prices.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bagbox_bag%20box%20logo_98569934-3d48-4979-a4c4-34aad5733e73_560x462.png.transform/cap-highres/image.png",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Bakery Cuisine & Dora Keiki",
+   "Address": "B1-K08 to K08A",
+   "Phone": "",
+   "text": "Bakery Cuisine retails the popular Japanese confectionery Dorayaki - think 2 small pancake-like patties wrapped around sweet decadent filling like cream cheese, chocolate cheese and even durian!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bakerycuisine_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "BB8",
+   "Address": "01-03A",
+   "Phone": "",
+   "text": "BB8 retails a series of accessories like Supreme caps, Herschel backpacks and many other streetwear brands that will let your style shine.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bb%20select_bb8_3d95537c-a118-4e4a-8c81-86a248566418_560x462.png.transform/cap-highres/image.png",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "BBLYNN Closet",
+   "Address": "02-15",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bblynn%20closet_20160504_174123_202f71b3-97bc-4351-b660-8f6689560946_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "BDYYS",
+   "Address": "02-33",
+   "Phone": "",
+   "text": "Bdyys Trading retails fashionable and trendy ladies' apparels.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bdyys%20trading_bdyss_df01aec2-2bd9-4ee8-be2a-601fdd0b997e_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Beauty Girl Fashion",
+   "Address": "02-25",
+   "Phone": "",
+   "text": "Beauty Girl Fashion keeps you beautiful with our trendsetting apparels that will make you the centre of attention.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/beauty%20girl%20fashionbeauty%20girl%20fashion%202a3d881ef6a0342a1937745842ea9396b560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Beauty Nails Spa",
+   "Address": "02-15A",
+   "Phone": "",
+   "text": "Beauty Nails Spa offers services for manicure, pedicure for both classic and gel. Get fanciful manicures and pedicures services for any occasion.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/beauty%20nail%20spa_20160510_174159_31d3326a-9e48-404a-9ed7-a29a80b3f5bc_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Beijing 101",
+   "Address": "B1-05",
+   "Phone": "+65 6558 8101",
+   "text": "With a track record of 90% visible results in increased hair growth among its customers, Beijing 101 specializes in the treatment of common hair issues such as hair scalp concerns, premature or excessive white hair and hair loss problems. Using premium-grade natural herbs integrate with TCM practices, our treatment tackles the very root of hair and scalp problems.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/JCube/Beijing%20101_Hair%20and%20Scalp%20Analysis_Keith.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Bella",
+   "Address": "02-104",
+   "Phone": "",
+   "text": "Bella - Ladies' fashion apparels",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bella_20160625_162029_68b43098-f9cb-4153-9a12-dd7f2db0bdab_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "BRITISH ESSENTIAL",
+   "Address": "02-11A",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/british%20essential_20160513_150921_04912fbd-11dd-41db-b1d6-22dfce76ac8a_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "CG Castle Group",
+   "Address": "02-07A",
+   "Phone": "",
+   "text": "Retailing uniquely designed pieces, stand out from the crowd by adorning our statement piece necklaces and bejeweled watches. Don’t be a fashion follower, be a trendsetter!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/cg%20castle%20group_img_1181_ea9dab45-e8b2-45a5-9f6d-92fd61d1ab42_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Chambers Lan Gaming",
+   "Address": "04-03",
+   "Phone": "",
+   "text": "Chambers LAN Gaming offers a high-speed stable connection for you to play your favorite computer games without any interruptions. Play Co-op with your comrades or take on battles alone. Game on!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/chambers_20160504_181651_59525c59-e37f-4076-b061-1293323060ce_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "Cherry",
+   "Address": "02-34",
+   "Phone": "",
+   "text": "Cherry sells ladies fashion apparels which includes blouses and dresses.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/cherry_20160625_161105_181e1a5c-4bc3-4e6c-b1f1-56938a5ad9f3_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "CHOC SPOT",
+   "Address": "01-01",
+   "Phone": "",
+   "text": "Satisfy your chocolate cravings and prepare to be spoilt for choice at ChocSpot, known for their wide range of imported chocolates at competitive prices. ChocSpot carries International brands such as Ritter Sport, Droste, Frey, The Belgian, M&M’s and many more.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/choc%20spot_chocspot_e0e510db-137f-45b9-a268-f4ae3bfb8363_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "CHULOP!",
+   "Address": "B1-K02",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/chulop_chulop_f733e567-8530-4a98-80bd-f7ca69459ec9_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Cici Korean Cosmetics",
+   "Address": "02-37",
+   "Phone": "",
+   "text": "CiCi Korean Cosmetics carries a wide selection of Korean cosmetics and Beauty products from face masks, dolly eyelashes, latest BB & CC cream, serums, flawless foundations, to eye and lip colours.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/JCube/cici_logo.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Closet Palette",
+   "Address": "02-32",
+   "Phone": "+65",
+   "text": "Closet palette sells ladies fashion apparels which includes blouses, skirt and dresses. Complete your look with our store's offerings.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/closet%20palette_closetpalette0232_de0b1dbc-30b8-42e1-bb2c-76e7fe220c7d_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Couple Ideas",
+   "Address": "02-02",
+   "Phone": "",
+   "text": "Looking for novelty gifts, collectibles, plush toys, and cushions? Couple ideas is the perfect place to head to start treasure hunting!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/couple%20ideas_20160504_180828_17126fbc-bb1e-43c5-ae20-dcf6eefb6637_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Couple Lab",
+   "Address": "02-21A",
+   "Phone": "+65 6570 2990",
+   "text": "CoupleLab Jewellery provides you with the perfect gift ideas for your loved ones and friends. With customization services and laser engraving, make each gift personalized. We also repair in-house merchandaizes for free and a small sum for non-inhouse products.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/couplelab_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Cupid",
+   "Address": "02-22",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/cupid_cupid_968107c2-06a6-49ca-b486-e60bef6e460e_560x462.png.transform/cap-highres/image.png",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "D'Style",
+   "Address": "02-98",
+   "Phone": "+65 6684 2153",
+   "text": "Bringing you street style fashion at an affordable price, keep up with the lastest trend by checking out our collection of tops, dresses and many more apparels!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/d%20style_dstyle0299_fb63a586-5539-45f4-8aab-2347c9e1f8fe_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Daiso",
+   "Address": "02-06",
+   "Phone": "+65 6268 8493",
+   "text": "Daiso is a $2 mega store established in Japan. We are Japan's No.1 livingware supplier, with over 3338 stores across the country and 658 stores in 28 countries worldwide. With over 90,000 different products in our inventory and a further 1,000 new products being developed each month, we provide the most amazing variety and value for all your needs.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/daiso_20160725_155846_2a010e87-0733-4086-a23d-d81752e0b85f_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Supermart"
+ },
+ {
+   "Name": "Dancepointe Academy",
+   "Address": "04-01",
+   "Phone": "",
+   "text": "Dancepointe Academy provides private dance education for children as young as 3 years old and have certified courses for children on Classical Ballet, Jazz and Tap.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/dancepointe%20academy_20160725_160847_36fe7d77-f810-49c5-b537-8e9d5384c2c6_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "DUNKIN' DONUTS",
+   "Address": "B1-K06A",
+   "Phone": "+65 6659 6757",
+   "text": "Dunkin' Donuts is Singapore’s favourite all-day stop for great coffee and baked goods. Visit us to enjoy a fantastic selection of donuts including all-time favourites Mr Happy, Boston Kreme and Strawberry Filled Donut as well as delightful limited edition options.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/dunkin%20donuts_square%20sea%20of%20donuts_95b1b94d-6901-4516-8648-3dcfbe94c478_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Eighteen Chefs",
+   "Address": "02-13",
+   "Phone": "+65 6334 3606",
+   "text": "Eighteen Chefs is known for our Cheese Baked Rice and wide variety of western cuisine with a local twist at an affordable price.Go for our best selling Heart Attack Fried Rice to satify that inner glutton or be the master of your own creation with our Be Your Own Chef option! Students, NSF and senior citizens enjoy discounts dining at our outlet. Don't say we bojio!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/e/eighteen%20chefs_ha%20fried%20rice%20200gram%20and%20half%20spring%201_17d8ca05-aa06-4ca3-ad4f-9dc9431dff1f_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Encik Tan",
+   "Address": "B1-K05",
+   "Phone": "",
+   "text": "Serving old school Singapore favourites like Fish Ball Noodles and Wanton Noodles, Encik Tan brings the best of Singapore's hawker delicacies to you.",
+   "img_src": "",
+   "Category": "Food"
+ },
+ {
+   "Name": "ETUDE HOUSE",
+   "Address": "01-21",
+   "Phone": "",
+   "text": "ETUDE HOUSE is a total beauty solution shop carrying a series of skincare and bodycare products to complete your beauty regime. From face masks to brighten your complexion to BB cream to giv you supple looking skin, Etude house will give your skin a makeover.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/e/etude%20house_etude%20house%20560x462_ebbc75cd-195a-458a-8ed9-c50ac136090d_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Eye Story",
+   "Address": "01-02",
+   "Phone": "+65 6684 4118",
+   "text": "Eye Story is where you can find trendy and designer spectacles from Japan, Hong Kong and Europe. We carry a number of unique brands in our store that includes Gotti from Switzerland and Andy Wolf from Austria. At Eye Story, we believe wearing spectacles is not just about correcting our eyesight but also enhancing our personal image, creating presence and establishing our unique identity. Get fitted with a sharp pair for work, an elegant pair for dinner dates and a quirky one for casual dates!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/e/eye%20story_img_3701_0589016f-db64-46ca-83bf-7b81556fe204_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "FairPrice Finest",
+   "Address": "B1-12",
+   "Phone": "",
+   "text": "Enjoy a wide array of exquisite treats that will excite every taste bud. From scrumptious delis to vintage wines, our gourmet selections are sensory delights. The health-conscious can't miss our prized organic items. Seafood is carefully hand selected along with exotic seasonal produce from all over the world just to satisfy the most discerning epicurious palates. So join us today to celebrate the finest things in life.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/f/fairprice%20finest_fairprice_finest%20logo__5e5b71c9-ea2a-4cc0-ba2e-58e844ef47fb_560x462.png.transform/cap-highres/image.png",
+   "Category": "Supermart"
+ },
+ {
+   "Name": "Geek Box",
+   "Address": "02-78",
+   "Phone": "",
+   "text": "Convert your Normal TV into a Smart TV! Watch all your favorite movies, dramas and live sports with our GeekTV, equipped with high end processors to provide you with the best audio and streaming experience. We provide customers with a one-stop solution to their entertainment requirements as well as a hands on experience and feel to our gadgets. With a dedicated back-end team, customers can be assured that their queries be addressed and more importantly, constant updates and improvements to our products to cater to their needs. Our products come with warranty.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/g/geekbox_geekbox%201_ea9fa334-3010-4407-9813-4f5d80451c2f_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Gorgeous Wear",
+   "Address": "02-107",
+   "Phone": "",
+   "text": "Gorgeous wear retails fashionable and trendy ladies' apparels.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/g/gorgeous%20wear_gorgeous%20wear_9f213b8a-f2ac-4b8c-b91f-cede01e65caf_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Heaven",
+   "Address": "02-100",
+   "Phone": "",
+   "text": "Heaven Apparel sells affordable trendy ladies fashion which includes pants, blouse, dresses, shorts and skirts.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/h/heavenheaven%202cd2b690ea13f4f728397c8c557dc8eba600x500.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Honey",
+   "Address": "02-05A",
+   "Phone": "",
+   "text": "En Fashion retails trendy ladies apparel at affordable prices.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/e/en%20fashionhoney%20222bf7a4cb2044408a816aebde1e0917a560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "iDarts Cube",
+   "Address": "01-17A",
+   "Phone": "",
+   "text": "I Darts Cube provides the perfect avenue for some friendly competition between friends and drinks over electronic darts.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/i/i%20darts%20cubeidarts%20cube%20560px%20by%20462pxa3043992814940e9bde9bb85aa74c6ca560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "Island Maids",
+   "Address": "B1-16",
+   "Phone": "+65 6835 7703",
+   "text": "At Island Maids, we believe that hiring a domestic helper is not simply a one-size-fits-all enterprise. To ensure the highest standards of quality are met, we personally interview our candidates in order to better assess their strengths and abilities. What this allows us to do is recommend you a helper from our team that best suits your unique individual needs.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/i/island%20maids_island%20maids_8c74d97f-dd42-4b1f-91f0-632c80e57750_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "ISURAMUYA Japanese Restaurant & Market Place",
+   "Address": "04-19",
+   "Phone": "",
+   "text": "Serving only the most authentic of Japanese cuisine, enjoy our Signature Miso Ramen with Chicken Char Siew, Gyoza and other delectable dishes prepared using Japan-imported ingredients. Checkout our marketplace located within the restaurant where you can purchase the finest authenthic Japanese ingredients to create your own interpretations of ramen, miso soup and more!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/i/isuramuya%20japanese%20halal%20restaurant%20market%20place_isuramuya_2_14bece5a-9ea8-4d5a-914b-31f99e1296dc_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Itacho Sushi",
+   "Address": "02-14",
+   "Phone": "+65 6684 4083",
+   "text": "Itacho Sushi serves an array of authentic Japanese sushi that showcases the freshness and natural sweetness of our premium sashimi by seasoning our sushi minimally so your can taste every note of natural umami.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/i/itachosushi_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "JML",
+   "Address": "B1-13",
+   "Phone": "",
+   "text": "JML provides innovative home solutions by bringing in homeware and kitchen appliances that will make your house a home. Come check out our product demonstrations and find out how home living can be made easy, simple and convenient.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/j/jml_20160504_174313_6d57ff91-1b85-4e39-bd4f-08014a58b2de_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Joy Baby",
+   "Address": "02-99",
+   "Phone": "",
+   "text": "Joy Baby brings joy to your babies with the array of apparels and shoes for your young ones.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/j/joy%20baby_20160504_180405_d1a9f6a9-c519-440a-8b4e-7db2874a1afa_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Julia's Fashion",
+   "Address": "02-36",
+   "Phone": "",
+   "text": "Julia's Fashion carries a range of female apparels including dresses, pants, skirts and tops.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/j/julia%20fashion_20160504_174148_a30cc3e8-f091-4e1b-8222-2bde513a9f78_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "K-POP ANNEX",
+   "Address": "02-91",
+   "Phone": "",
+   "text": "Jump on the bandwagon for the hottest Korean Pop Music Culture and check out the celebrity endorsed merchandise we carry at K-Pop Annex.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/k-pop%20annex_20160510_174603_1e247e81-c8da-4727-950d-7ae900932f7a_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Kang Foot Wellness",
+   "Address": "B1-04",
+   "Phone": "+65 6262 5543",
+   "text": "At Kang Foot Wellness, we understand your need to relax, unwind and rejuvenate. Our signature foot massages will leave you feeling refreshed and energized. Kang Foot Wellness also offers full body massages that will revitalize your body, soothe anxiety and improve blood circulation. We also provide ear candling and ear wax removal services.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/kang%20foot%20wellness_kang%20foot%20wellness%20website%20logo_61adc7d9-805f-4e5b-8dc6-6f695f35b282_560x462.png.transform/cap-highres/image.png",
+   "Category": "Service"
+ },
+ {
+   "Name": "KARVA Salon for Ladies",
+   "Address": "B1-16A",
+   "Phone": "",
+   "text": "At Karva, our highly motivated team of hair stylists, nail therapists and scalp consultants are committed to deliver services of the highest quality offered to all our guests. Combining the latest techniques, equipment and products, every client leaves Karva looking and feeling beautiful.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/karva%20salon%20for%20ladies_20160711_171135_18dee590-6be2-470d-ad07-3727c5a4f5c5_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "KeCha",
+   "Address": "02-65",
+   "Phone": "",
+   "text": "New concept beverage kiosk from Taiwan! Our beverage kiosk offers a range of drinks, from fruity teas to milk series, in stunning colours served in beautiful and reusable bottles. Roselle Teas keep your liver healthy, rich in vitamin C and aids digestion. Butterfly Peas helps protect the skin against premature aging, reduce inflammation, fight certain types of cancers and weight loss. Earl Grey Tea fights depression and prevents heart diseases. Our hot seller, My Secret Garden, a combination of three different types of flower, apple juice, soda and alluring rose buds. It is floral yet with a touch of refreshing apple juice! A drink that is popular among all age groups. Not forgetting the Milk Series! We launched the first Popcorn flavoured drink in Singapore. Our famous Hollywood Milk tastes heavenly with the hint of Popcorn. If you are a Cheesecake lover, you will definitely enjoy our New York Cheesecake Milk. ",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/kecha_982x818.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "KFC",
+   "Address": "04-08, 04-20",
+   "Phone": "+65 6844 9334",
+   "text": "Captivating aroma, succulent, juicy chicken and thoughtful service are what KFC lovers come back for. Choose between our signature Original Recipe chicken prepared with Colonel Sander’s secret blend of 11 herbs and spices, or the all-time favourite Hot & Crispy chicken. Visit KFC today for a dining experience that is so good.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/k/kfc_560i.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Kireyi",
+   "Address": "02-42, 02-60",
+   "Phone": "",
+   "text": "Kireyi retails fashionable and trendy ladies' apparels.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/kireyi_kireyi_d36fc73d-ed1c-4b4a-af83-76344e1d4ffb_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "KIYO",
+   "Address": "02-01",
+   "Phone": "+65 6684 2005",
+   "text": "KIYO is a local fashion brand that aims to provide women of today a look for every occasion. Its philosophy of paying attention to material, construction, trend and detail has consistently distinguish KIYO as a fashion brand of high quality and excellent value for women. With a diverse collection of comfortable yet affordable clothes and shoes to shop from, you will be spoilt for choice. So come on down to KIYO!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/kiyo_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Kopitiam",
+   "Address": "B1-19",
+   "Phone": "+65 6684 4522",
+   "text": "Enjoy the most iconic Singaporean hawker raves. Kopitiam gathers the best of Singapore hawker fanfare like all-time favorites - Hainanese Chicken Rice, Laksa and many more local delicacies. With a selection as diverse as Singapore's multi-ethnic society, there is a dish for everyone.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/kopitiam_20160725_155240_b84d4536-68a6-4fc5-9b24-022f6f21ec64_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Kushi Sushi",
+   "Address": "B1-K06",
+   "Phone": "",
+   "text": "Kushi Sushi offers a wide assortment of sushi ranging from handrolls, to makis, to gunkans. They also have a variety of don buri and bento sets to choose from.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/cma-tenants/KushiSushi_image.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Levi's",
+   "Address": "01-26",
+   "Phone": "+65 6684 4540",
+   "text": "The true pioneer of all things denim, Levi's tailors a range of cutting that brings out the most flattering silhouette in you. From figure-hugging skinny jeans to straight shaping jeans, flaunt your assets with Levi's.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/l/levis_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "LiHO",
+   "Address": "03-13",
+   "Phone": "+65 6734 8117",
+   "text": "LiHO 哩喝 means, “how are you?” in the Chinese dialect – Hokkien and what we want to show is that that despite the differences in language and culture among different races in Singapore, a simple greeting of LiHO! can bond us together and that is what LiHO signify – a proud Singapore tea beverage brand that every Singaporean can relate to.A good cup of tea can leave us reminiscing about the taste.  And we at LiHO believe that a good cup of tea topped off with our cheese will leave you surprised, delighted and wanting more.  Hence, LiHO is founded by a belief that delicious cheese tea & beverages should be available to everyone conveniently anywhere, anytime.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/g/gong%20cha_liho_e3e25891-541d-4a13-89ce-6595e2dcbe5c_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Lisa Lisa",
+   "Address": "02-16",
+   "Phone": "+65 6684 2153",
+   "text": "Dress yourself in Lisa Lisa with our collection of ladies' apparels and complementing accessories.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/l/lisa%20lisa_lisalisa0216_ca8c6631-d348-47f1-9115-b35075e13867_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "McDonald's",
+   "Address": "01-09",
+   "Phone": "+65 6684 4228",
+   "text": "McDonald's provides the ultimate convenience and a haven for families. You can pop by the McCafe for a cuppa after a busy day or enjoy your favourite menu anytime with great value, all day - every day. Sink your teeth into local favourites like McSpicy or McNuggets with our signature Curry Sauce, or go for the all-time favourites like Big Mac or Filet-O-Fish.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/mcdonalds_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "MINISTER SHOE & KEY SERVICE CENTRE",
+   "Address": "B1-02",
+   "Phone": "",
+   "text": "Minister Shoe & Key Service Centre specialises in key duplications as well as shoe repair services.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/Minister%20Shoe.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Miss J",
+   "Address": "02-109",
+   "Phone": "",
+   "text": "Miss J retails fashionable and trendy ladies' apparels.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/miss%20j_miss%20j_6bb06fcf-47b9-4fb4-9ba9-9860a752011c_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Moda",
+   "Address": "02-23",
+   "Phone": "",
+   "text": "Moda brings you chic and classy designs that draws inspiration from the latest trendsin fashion capitals of the world. Each product is carefully handpicked by our style curators to bring you the best bang for your buck. So, hurry down and grab what you can while stocks last!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/moda_moda_5b3c1e13-0b45-4700-84ee-ee400de6fe3e_560x462.png.transform/cap-highres/image.png",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "MOS Burger",
+   "Address": "01-08",
+   "Phone": "",
+   "text": "Popularizing the rice burgers of our generation, MOS Burger offers fast food that is prepared on order. Combining the western favourite with tastes of Japan, MOS Burger reinvents the burger with a twist. Our Yakiniku Rice Burger and Teriyaki Burger are must-tries if you love a bit of the west in your Japanese food.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/mos%20burger_teriyaki%20chicken%20burger%20560x462_92f624c0-b495-45fd-b8e9-d40586ed990e_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "My Little Bear",
+   "Address": "02-27, 02-45",
+   "Phone": "+65 6684 2153",
+   "text": "My Little Bear retails female apparels like dresses and tops which will add thst feminine touch to your wardrobe.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/my%20little%20bear_20160504_173821_4665461c-f0ad-4d86-a099-b76664014755_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "MYC",
+   "Address": "02-97",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/myc_20160504_174948_79ae91e6-0ddb-46a9-b48a-079aa9c4495d_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "MyRepublic",
+   "Address": "02-10",
+   "Phone": "",
+   "text": "A Singapore-grown startup, MyRepublic is best known as the telco that launched Singapore and South Asia’s first 1Gbps fibre broadband plan under S$50, propelling Singapore’s internet connectivity to be ranked among the best in the world. Today, MyRepublic provides ultra-fast internet service to over 50,000 homes and businesses in Singapore. On route to bidding to be the fourth mobile operator in Singapore, expect better data plans and faster connectivity.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/myrepublic_myrepublic_storefront_1912f3a5-8964-4fc2-a369-778847e94219_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Noodle Bar by Tokyo Latte",
+   "Address": "02-03",
+   "Phone": "",
+   "text": "Noodles Bar by Wan Chai combines the quality and innovation of the Japanese with the comfort of old-fashioned European cuisine. We offer four types of noodles: ramen, cha soba, udon, and nissin. Diners can pair their noodles with any of the soup bases on the menu, including our signature roasted tomato basil with seafood, curry with chicken, or bonito kombu with seafood. Dry bases are also available, in the form of yakisoba and bacon aglio olio. Top your dish off with a selection of add-ons, including ponzu roast chicken and soft shell crab. Every bowl is up to your imagination",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/n/noodle%20bar%20by%20wan%20chai_20160810_143303_f46bf389-c1a1-4469-8322-3aeb04a7f559_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "OLDTOWN WHITE COFFEE",
+   "Address": "01-19",
+   "Phone": "+65 6684 4404",
+   "text": "At Old Town White Coffee, our signature Ipoh White Coffee is roasted to perfectness and grounded to a perfect blend for that full-bodied brew. A cuppa aromatic coffee with our Old Town Ipoh Chicken Hor Fun and other traditional malaysian delicacies will bring you right down the streets of Ipoh.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/o/oldtown_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "One Ice Cafe",
+   "Address": "02-67",
+   "Phone": "",
+   "text": "The only way to beat the Singapore heat wave, head down to One Ice for a refreshing shaved ice dessert. From classic Korean bingsu like the Pat Bingsu and Injeolmi Bingsu to locally adapted Milo Bingsu, come seek refuge from the tropical heat at One Ice!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/o/one%20ice_oneice_d5da326f-e7d8-412b-b43c-ee91c155d5b1_560x462.png.transform/cap-highres/image.png",
+   "Category": "Food"
+ },
+ {
+   "Name": "OPPA Korean Grill BBQ",
+   "Address": "03-10",
+   "Phone": "+65 6339 5841",
+   "text": "Oppa Korean Grill Bbq offers a selection of premium meats marinated in authethic Korean recipes, a variety of leafy greens and condiments and a range of signature Korean side dishes that wl give you the true Korean Bbq experience.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/o/oppa%20korean%20grill%20bbq_oppa_011028a0-b6aa-4636-bd91-4565efe47493_560x462.png.transform/cap-highres/image.png",
+   "Category": "Food"
+ },
+ {
+   "Name": "OWNDAYS",
+   "Address": "01-11 to 12",
+   "Phone": "+65 6844 9770",
+   "text": "Owndays retails eyewear that are designed and manufactured inhouse. With a wide variety of high quality frames in more than 1,500 styles and just a 20 minutes wait to a new set of stylish frames, we deliver fashionable eyewear at affordable prices. Capped at a price of just $198, our glasses are fitted with high index aspheric lenses at no additional cost!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/o/owndays_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Pet Lovers Centre",
+   "Address": "B1-17",
+   "Phone": "+65 6684 5208",
+   "text": "Pet Lovers Centre (PLC) boasts the widest range of the freshest stock for pet owners to pamper their pets. We also offer quality services including pet grooming, veterinary consultations and excellent home delivery service to reduce the hassle while shopping.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/pet%20lovers%20centre_20160725_155107_f89a13e5-0036-4fc4-b29e-3cbb51cd32d1_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Playdress",
+   "Address": "",
+   "Phone": "",
+   "text": "Established in 2014 by Pieces of 7 Pte Ltd, Playdress is a local fashion brand that embodies the confident, stylish woman of today.Minimalism and sophistication are at the heart of Playdress's philosophy.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/westgate/Playdress_Thumbnail.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Poka-oo",
+   "Address": "02-38, 02-64",
+   "Phone": "",
+   "text": "Claw Machines, Collectibles",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/JCube/Pokaoo_Carousel%20(1).jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "Pollen Scent",
+   "Address": "B1-14",
+   "Phone": "",
+   "text": "Pollen Scent is a one-stop\nflorists to provide your botany needs. \n\nWith a variety of potted plant\nsuch as herb, fruit tree, foliage plant and flowering plant, they sure will\nbrighten up your room. Green fingers can also check out our Terrarium\nworkshop to create beautiful displays of succulent arrangements and cactus.\n\nThe range of services includes\neverything from bridal bouquets to hand bouquets, indoor plants, orchids,\nherbs, gifts, fresh flower bouquets, flower arrangements / table flower\narrangements, and terrariums.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/tenants/Pollen%20Scent%20982%20x%20818.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Pontian Wanton Noodles",
+   "Address": "B1-18",
+   "Phone": "",
+   "text": "If you love deep fried crsipy Wanton with savory-sweet Charsiew BBQ Pork, resting on a bowl of chewy sauce-drenched noodles, then you probably would have or should be eating at Pontian Wanton Noodles now.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/pontian%20mee_pontian_560_a18136bd-ed10-46e0-93f6-0b3c2732fd30_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Popsical",
+   "Address": "02-10A, 02-74 to 76",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/popsical_popsical%20logo_60ebd369-9526-475e-9222-dddd3f70876e_560x462.png.transform/cap-highres/image.png",
+   "Category": "Others"
+ },
+ {
+   "Name": "POSB ATM",
+   "Address": "01-K2",
+   "Phone": "+65 1800 339 6666",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/posb%20atm_20160506_143213_3b062803-68cb-43c6-98cd-7114e4f5536f_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Prinsessa's Closet Plus size",
+   "Address": "02-51",
+   "Phone": "",
+   "text": "Empowering plus size women to express themselves confidently through style, Prinsessa's Closet is dedicated to the notion that fashion is for every female by providing apparels to plus sized beauties.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/prinsessa%20closet%20plus%20size_prinsessa0296_f91b7a0b-e18c-4154-8f80-664cfed9ea92_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "QB HOUSE",
+   "Address": "B1-03",
+   "Phone": "+65 6323 2144",
+   "text": "At QB House, we provide salon quality hair cut at affordable prices. Trained by professional Japanese instructors, stylists deliver quality hair cuts in just 10 minutes. Skip the long queue and return later by registering your names on our queue list and enjoy simply return later to receive your haircut.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/q/qb%20house_20160725_155359_c4f49368-375c-4caa-9dc1-c16f2f9a3626_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Rice & Box by Tenderfresh",
+   "Address": "02-K02, 02-08",
+   "Phone": "",
+   "text": "Tenderfresh specializes in Fried & BBQ Chicken and offers a variety of other western signatures like grills and pasta, pizzas and salads so you can be pampered with choices!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/r/rice%20%20box%20by%20tenderfresh_20160822_164526_ec2bf6d9-640a-4e84-995c-0156f935a420_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Saizeriya",
+   "Address": "02-09B",
+   "Phone": "",
+   "text": "Bringing to you authentic Italian classics like Carbonara and Bolognese, together with our hand-stretched crust pizza, enjoy Italy in sunny Singapore",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/saizeriya_img_1185_edf6007a-5aaa-4a9c-8048-a080ca51e897_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Seimpi School of Music",
+   "Address": "04-13 to 14",
+   "Phone": "+65 6262 1193",
+   "text": "Seimpi School of Music is one of the leading institutions for music education, especially with its popular proprietary course, the Music for the Intelligent Mind (MIM®). MIM® teaching concept has since spread into the graded instrumental lessons (piano, violin, vocal and guitar), diploma in performance and teaching and most recently, the MIM English course and MIM Speech & Drama, due to popular demand from parents. Our teachers are carefully selected from Singapore and all over the world to make sure our students get the first class delivery of all our courses. With instrumental lessons for piano, violin, vocal and guitar available, there has got to be an instrument that can help you express yourself.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/seimpi%20school%20of%20music_seimpi_763e24a2-1970-4736-aaa0-9714e11d165e_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Shakura Pigmentation Beauty",
+   "Address": "02-18",
+   "Phone": "+65 6892 1212",
+   "text": "Knowing that Asian skin is prone to hyperpigmentation, Shakura, the Pigmentation Specialist™ has developed a powerful yet gentle formulation suitable for all Asian skin types. Each facial treatment is infused with Milk Essence and plant extracts from Hibiscus Sabdariffa Flower to visibly lighten pigmentation without using lasers or invasive treatments.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/shakura%20pigmentation%20beauty_shakura%20logo_bff08a68-f732-4be3-9674-d1c7a6542128_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Share Tea",
+   "Address": "B1-K01",
+   "Phone": "+65 8382 4246",
+   "text": "Originating in Taiwan, Sharetea shares with us Taiwan's most iconic drink - Freshly brewed milk tea complemented by chewy glutinous pearls that leaves a lingering aroma of premium tea leaves.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/s/sharetea_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Shaw Theatres",
+   "Address": "04-11",
+   "Phone": "+65 6684 4120",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/shaw%20theatres_shaw_9797e501-66e8-4b0e-92ca-8266877ed9b3_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "Shi Jian Hot Pot",
+   "Address": "02-19",
+   "Phone": "",
+   "text": "Authentic Sichuan Hot Pot Restaurant. The taste that brings you to Sichuan, China.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/JCube/Shi%20Jian%20Hot%20Pot_Carousel.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Shi Li Fang",
+   "Address": "02-08A",
+   "Phone": "",
+   "text": "With 6 soup bases to choose from and a condiments bar with a wide selection of sauces and garnishes, you can personalize your own steamboat experience at Shi Li Fang by creating the taste that scores with your taste buds!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/shi%20li%20fang_slf_f0b96419-eee9-44c5-bf0f-1d390d1b146e_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Shop Me",
+   "Address": "02-79",
+   "Phone": "",
+   "text": "Shop ME retails female apparels for the fashion conscious.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/shop%20me_20160504_175651_c5f13905-459c-4e34-9d88-46d518ea49b9_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Silver T",
+   "Address": "02-09",
+   "Phone": "",
+   "text": "Silver T retails a impressive range of earrings and other accessories of different styles. We also carry graphic and printed tees.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/silver%20t_20160504_175445_08339edc-b48f-4cfd-aa29-d1bf0ece68fe_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Simply Salad Xpress",
+   "Address": "B1-K07",
+   "Phone": "",
+   "text": "Offering fresh and new flavours, Simply Salad Xpress has a wide variety of toppings and ingredients for you to customise your own salad, at an affordable price. You can also order one of their pre-designed salads as your go-to option when in a hurry or if you are spoilt for choice with the various spreads available.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/simplysaladxpress_image.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "SingTel Exclusive Retailer",
+   "Address": "01-04",
+   "Phone": "",
+   "text": "Taking care of all your telecommunication needs from mobile services to entertainment, cable and broadband services, Singtel keeps you connected on your devices and keeps entertainment on the go.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/JCube/Singtel_Carousel.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Smiggle",
+   "Address": "01-10",
+   "Phone": "+65 6694 0264",
+   "text": "Smiggle is the ultimate creator of colourful, fun, fashion-forward stationery. With Smiggle, you can organise your work or play space with rainbow brights and bold designs, whether it be at home, at school or at the office. All about the consistent innovation, bold colors, quirky graphics and great value, head down to where the smile meets a giggle.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/s/smiggles_560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Snackz It! 可口味",
+   "Address": "B1-K10",
+   "Phone": "",
+   "text": "No more travelling to Taiwan just for their Giant Fried Chicken or Oyster Mee Sua because Snackz It is bringing it right to Singapore for you. Serving your favorite Taiwanese night market signatures and other snacks like Tempura and Sweet Potato Fritters, Snackz It takes fried food to the next level.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/snackz%20it_20160725_155205_1aae91ff-6f31-4a6a-b666-6699a0d4fd65_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Snapstyle",
+   "Address": "01-13",
+   "Phone": "",
+   "text": "Ladies' fashion apparels, tops, blouses, dresses and more. ",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/snapstyle_20160625_161901_4d4b1e5f-20d2-4086-b32d-79f634cfb1e2_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Square Moon",
+   "Address": "02-24",
+   "Phone": "",
+   "text": "Square Moon carries a range of bags to match with our adorable dresses.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/square%20moon_20160504_173713_5b25be5b-957c-4462-9493-048bd18e6d01_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Subway",
+   "Address": "B1-K04",
+   "Phone": "+65 6684 4663",
+   "text": "Subway serves gourmet cold cut deli on herbs and spice infused bread with a generously serving of nutritious greens drizzled with decadent low fat dressings. Save on the calories, not the flavors!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/subway_20160725_155005_6124895b-dff6-4495-9bd7-2e75e6e8f0de_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Surfers Paradise",
+   "Address": "01-14 to 16",
+   "Phone": "",
+   "text": "Surfers Paradise is one of the leading beach lifestyle surfwear brands in Australia. Head to the beach with our breathable apparels and get ready to turn heads.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/surfers%20paradise_surfers%20paradise%201_adc50010-af9e-4011-b4d3-84c7b4f09740_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Sweet Monster",
+   "Address": "02-66",
+   "Phone": "",
+   "text": "Sweet Monster is the Creator of the Popcorn Soft Serve Ice Cream, Pioneer of Characterful Sweets & The Best Ice Cream Ever.Sweet Monster has dynamic and joyous flavor. We nurture the idea that our offerings are universally enjoyed by families and friends, making us part of life’s celebrations and memories.LIFE IS HARD ENJOY SOFT. When you feel tired or sad, Sweet monster will give you happiness and joy with Sweet Gifts.",
+   "img_src": "",
+   "Category": "Food"
+ },
+ {
+   "Name": "Swirls & Twizzles by OSL",
+   "Address": "03-12",
+   "Phone": "+65 9674 2065",
+   "text": "Providing the most comprehensive range of quality products for all sports on ice, Swirls and Twizzles by OSL is your one-stop solution for your skating needs from apparel and equipment to protective wear and accessories. Test out our boots and blades on ice now!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/swirls%20and%20twizzles_20160725_161349_bf624ba2-0981-4c99-8f6e-0f47e859daba_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "T32 Dental Pearl",
+   "Address": "B1-15",
+   "Phone": "+65 6684 3833",
+   "text": "T32 Dental Pearl provides comprehensive preventive, restorative and cosmetic dental care in a personalised and comfortable environment. Be it a routined checkup, a dentist for your child, teeth whitening or more advanced corrective or aesthetic dentistry, we have a dental specialist that is right for you.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/t32%20dental%20pearl_t32%20pearl_jcube_ce8ba3e0-6d51-4ba3-9379-b53c19290b21_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "Teo Heng KTV",
+   "Address": "03-14 to 16",
+   "Phone": "+65 6734 6300",
+   "text": "Say no to closet singing in your bathroom and be your own star at Teo Heng KTV Studio instead! Family friendly, smoke and alcochol free, Teo Heng provides quality yet affordable stardom experience!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/for%20quick%20upload%20image/teoheng%20logo_560-jcube%20website.jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "ThaiExpress",
+   "Address": "01-06",
+   "Phone": "",
+   "text": "Certified for its authenticity, Thai Express dishes up spicy tangy Thai favorites like Tom Yum Seafood Soup and Seafood Phat Thai. Our concept is inspired by the needs of customers who want to dine amidst a relaxed yet contemporary ambience with no strict rules on decorum, still enjoy fantastically authentic Thai cuisine and at very reasonable prices. Best of all, they can enjoy whether in a group or alone, kudos to our unique serving style of individual portions.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/thai%20express_te%20horizontal%20logo%20cropped_17fba575-a157-4689-a21e-51ff1c67709c_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "The Cake Shop",
+   "Address": "B1-07",
+   "Phone": "",
+   "text": "Using the freshest ingredients, you can be sure that The Cake Shop serves you quality bakes that will leave a buttery aroma lingering on your palate. Passionate in creating all things beautiful and indulgent, we customize tiered and 3D cakes to cater to your themed parties as well.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/the%20cake%20shop_thecakeshop_72a610aa-7c90-4576-a334-32689f295a87_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "the flip flop shop",
+   "Address": "01-27 to 28",
+   "Phone": "+65 6316 5696",
+   "text": "We are a speciality retailer of casual apparel and foot-wear principally targeting all men and women who love rugged and casual with a touch of vintage inspired style. Our company provides customers with a focused selection of high quality, active oriented, merchandises at attractive prices.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/the%20flip%20flop%20shop_the%20flip%20flop%20shop_theflipflopshop_560_394e3064-bc58-4b37-9c71-bab1e446ce3e_560x462_bfd537fa-9709-4fd5-8346-4230bff41eaf_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "THE GOOD TRIO",
+   "Address": "01-17",
+   "Phone": "",
+   "text": "Experience the greatest trio of life; comfort food, people and conversations. Though deceptively presented with a simple aesthetic, the dishes achieve sublime perfection with impeccable ingredients, through meticulous and often time-consuming preparations. With a wide selection of iconic Chinese dishes, try out some of our signature creations like the Prosperity Pig's Trotter and Steamed Pork Dumplings.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/the%20good%20trio_20160504_173228_4cfb2831-68fa-499a-b281-817a821e8af8_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "The Manhattan Fish Market",
+   "Address": "04-10, 04-21",
+   "Phone": "+65 6884 9567",
+   "text": "The Manhattan FISH MARKET serves only the freshest, lip-smacking American-style seafood from the famous Manhattan Fish n’ Chips to the all-time favourite Garlic Herb Mussels. Be treated to an extensive menu with dishes prepared in five different ways of cooking – flamed, baked, poached, grilled and fried. ",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/m/manhattanfishmarket_560i.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "THE NAILWORKS",
+   "Address": "02-40, 02-62",
+   "Phone": "+65 6909 0333",
+   "text": "Show some love to your nails at The Nailworks with our range of manicure and pedicure services. From sohpisticated gel nails to cutesy designed nail art, give your nails a new look!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/the%20nailworks_1_15d48aee-bf5e-4dc5-b7a9-e33c91419014_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
+ },
+ {
+   "Name": "The Rink",
+   "Address": "03-11",
+   "Phone": "+65 6684 2374",
+   "text": "Head down to Singapore's first and only olympic sized ice rink, The Rink for some fun on the ice. With a 460 seat viewing gallery and rinkside dining available, enjoy a chill weekend at The Rink. For those who are interested in learning how to be ballerinas on ice, sign up for our Learn-To-Skate Programme to get started.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/the%20rink_the%20rink_2edb108d-0eda-4da9-ab53-89bfffd8a301_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "THEGREYSPACE.CO",
+   "Address": "02-08B to 08C",
+   "Phone": "69963654",
+   "text": "THEGREYSPACE.CO is a concept store that offers minimalist products at an affordable price. The brand carries a wide range of products from bags, with a niche in tote bags, to novelties and even customised pouches. At THEGREYSPACE.CO, we believe there is (always) something for everyone. With an affordable pricing, our products (especially the customised range) make a great gift for all occasions. If you are looking for simple, clean, minimalist looking products, you know where to find us! ",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/JCube/thegreyspaceco_image.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Time Network",
+   "Address": "02-21",
+   "Phone": "+65 6570 2689",
+   "text": "Time Network specializes in the development, distribution and marketing of licensed brands such as Cat and Bruno Banani watches.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/time%20network_time%20network_047a714c-91be-4989-bf4e-031c5c065c86_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Toriki",
+   "Address": "04-12",
+   "Phone": "",
+   "text": "Toriki is a yakitori venue that even the Japanese palette will agree with. Situated in JCube and overlooking Singapore's only olympic ice rink, the space is a good balance of modern and minimalistic décor. Diners can look forward to classic old school yakitori grilled over binchotan charcoal and a curated selection of craft beers on tap, sakes and cocktails.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/toriki_982x818.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "V-Room / Coffeemin",
+   "Address": "02-11",
+   "Phone": "+65 6222 6100",
+   "text": "Forget the expensive egg benedicts and overpriced coffee. Coffeemin revolutionizes the idea of a typical café by providing you with free flow snacks, drinks and entertainment! The only catch: you pay for the time you spend here. Overpriced all-day breakfast or unlimited snacks and immeasurable fun? Make you choice! V-Room Virtual Reality Arcade - Come visit the biggest Singapore VR arcade and be amazed by the state of the art technology that blurs the boundary of virtual and reality. With 12 rooms available, you can book your private VR arcade room and become the hero you have always wanted to be!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/v/v-room%20coffeemin_coffeemin_1fa56f9b-b1fd-4fd1-a274-0a7b9a6e8f1e_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Valu$",
+   "Address": "B1-09",
+   "Phone": "",
+   "text": "Valu$ carries a range of lifestyle and home living products ranging from hardware and cleaning products to beauty products and snacks.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/valu.jpg.transform/cap-highres/image.jpg",
+   "Category": "Supermart"
+ },
+ {
+   "Name": "VIP FASHION HOUSE",
+   "Address": "02-48",
+   "Phone": "",
+   "text": "VIP Fashion House sells a variety of men fashion clothing for a casual day out.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/v/vip%20fashion%20house_vip%20fashion%20house_975f164f-d66d-427e-a853-057bf4ca3ef5_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "WANG XP",
+   "Address": "02-110",
+   "Phone": "",
+   "text": "Wang XP retails female apparels at an affordable price with a wide selection of tops, bottoms and dresses.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/wang%20xp_20160504_180435_9764cea7-62e5-47ad-8e2e-68f5bcbd9923_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "Watsons",
+   "Address": "B1-10",
+   "Phone": "+65 6684 3691",
+   "text": "Watsons carries a variety of body wellness and beauty products to make looking good and feeling good convenient to all its customers. Expanding to provide services such as medication dispensing and review as well, Watsons care about your health and wellness.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/watsons_watsons_560_de9a03cd-71fc-4406-8565-ef8676afc2f6_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Healthcare"
+ },
+ {
+   "Name": "Whimsy",
+   "Address": "04-05",
+   "Phone": "",
+   "text": "Whimsy brings you into the virtual reality for a weekend of fun with the family! With attractive prizes to be redeemed as you immerse yourself in our interactive games, walk away with a weekend of family time well spent, a load of fun and a bag of prizes for being awesome!",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/whimsy_20160725_161034_55c512da-b1a6-413c-950c-695c2a023dc8_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Entertainment"
+ },
+ {
+   "Name": "WINGSTOP",
+   "Address": "01-18",
+   "Phone": "",
+   "text": "Wing Stop is known for our classic and boneless wings sauced and tossed in a choice of 12 intense flavors including Original Hot, Cajun, Atomic, Teriyaki, Lemon Pepper, Hawaiian, Garlic Parmesan, Hickory Smoked BBQ, Louisiana Rub, Mango Habanero, Kecap Manis and Oriental Soy Pepper. Our wings are always cooked to order, sauced and tossed and served with a variety of house-made sides including Wingstop’s hand-cut seasoned fries.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/wingstop_untitled_dec1b556-bd51-47b9-8f91-4bd1661467ee_560x462.png.transform/cap-highres/image.png",
+   "Category": "Food"
+ },
+ {
+   "Name": "Wow Tako",
+   "Address": "B1-K03",
+   "Phone": "",
+   "text": "Wow Tako is dedicated to sharing the great taste of takoyaki with you. We have added prawn, bacon cheese and many delicious new tastes to the original \"octopus ball\" to offer you a delectable convenient snack anytime of the day! Add your favourite toppings for greater taste or have it with omu rice or noodle for a more wholesome meal.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/wow%20tako_20160725_154943_004773e5-44a3-4cec-ad68-b725b6dfafd3_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "XIMI VOUE",
+   "Address": "02-20",
+   "Phone": "",
+   "text": "Ximi Vogue is a lifestyle brand retailing a range of products that covers beauty products, household appliances and digital accessories, and other novelty items.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/x/ximi%20voue_20160916_145838_a63339b3-cda2-4538-b2f7-b1d506a87dda_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Others"
+ },
+ {
+   "Name": "Ya Kun Kaya Toast",
+   "Address": "01-08A",
+   "Phone": "+65 6262 0621",
+   "text": "Serving a humble fare of coffee, tea, egg and toast, Ya Kun Kaya Toast exemplifies how less is more. Generously slathered with our special kaya recipe that stood the test of time, Ya Kun is undoubtedly the choice coffee shop to get your breakfast fix. Expanding the menu to include other local delights as well, start the your day right with Ya Kun Kaya Toast.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/y/yakun_image_560x560.jpg.transform/cap-highres/image.jpg",
+   "Category": "Food"
+ },
+ {
+   "Name": "Yoyo",
+   "Address": "02-07",
+   "Phone": "",
+   "text": "Yoyo retails female apparels for the fashion savvy.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/y/yoyo_20160504_175850_b48218a8-9c82-456a-b1f1-0bd3c58aa6fa_560x462.jpg.transform/cap-highres/image.jpg",
+   "Category": "Fashion"
+ },
+ {
+   "Name": "ZUL YOU STYLE",
+   "Address": "02-50, 02-55",
+   "Phone": "",
+   "text": "Zul You Style specializes in beauty and hair care services. We believe in quality treatments for all hair, beauty and bridal services.",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/z/zul%20you%20style_zulyoustyle%203_50ef03fe-5f5c-492a-8d5e-dba26e551f4a_600x500.jpg.transform/cap-highres/image.jpg",
+   "Category": "Service"
  }
-  ]
+]
