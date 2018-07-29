@@ -103,7 +103,7 @@ public class DirectoryActivity extends AppCompatActivity {
 
         //Initialise categories textView
         mallsSelect.setText(Arrays.toString(shoppingMalls));
-        categoriesSelect.setText("No categories yet");
+        categoriesSelect.setText("No categories selected yet.");
 
         //Update text view of categories selected, for debugging options
         if (filterActivityOpened) {
