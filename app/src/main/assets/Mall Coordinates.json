@@ -15,13 +15,18 @@
    "LON": 103.742786
   },
   {
-    "Mall": "The Clementi Mall",
-    "LAT": 1.315024,
-    "LON": 103.764504
-  },
-  {
     "Mall": "West Mall",
     "LAT": 1.349992,
     "LON": 103.749237
+  },
+  {
+    "Mall": "Star Vista",
+    "LAT": 1.306726,
+    "LON": 103.788440
+  },
+  {
+    "Mall": "Clementi Mall",
+    "LAT": 1.315040,
+    "LON": 103.764410
   }
 ]

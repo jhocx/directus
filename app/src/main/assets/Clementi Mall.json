@@ -1,0 +1,1433 @@
+[
+ {
+   "Name": "5 Little Bears",
+   "Category": "Food",
+   "Address": " #B1-K14",
+   "Phone": " 6734 6789",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "7-Eleven",
+   "Category": "Supermart",
+   "Address": " #01-03",
+   "Phone": " 6684 6862",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/others/7eleven.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Another One",
+   "Category": "Fashion",
+   "Address": " #03-28",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/a/anotherone.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Aoyama Hair Studio",
+   "Category": "Service",
+   "Address": " #05-34",
+   "Phone": " 6909 2539",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/a/aoyama.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Apgujeong Hair Studio",
+   "Category": "Service",
+   "Address": " #05-19/20",
+   "Phone": " 6909 3210",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/a/apgujeonghair.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Arena",
+   "Category": "Fashion",
+   "Address": " #04-38/40",
+   "Phone": " 6659 1716",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/a/arena1.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "AsterSpring",
+   "Category": "Service",
+   "Address": " #05-10",
+   "Phone": " 6570 9981",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/a/asterspring.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "AXS Station",
+   "Category": "Service",
+   "Address": " #03-K10",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/a/axs.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Bata",
+   "Category": "Fashion",
+   "Address": " #03-16/17",
+   "Phone": " 6592 5008",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bata.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Beard Papa",
+   "Category": "Food",
+   "Address": " #B1-K24",
+   "Phone": " 9069 8366",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/beard_papa.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Beauty Language",
+   "Category": "Others",
+   "Address": " #04-37",
+   "Phone": " 6334 7843",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/beautylanguage.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Bee Cheng Hiang",
+   "Category": "Food",
+   "Address": " #B1-20",
+   "Phone": " 6659 5295",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bee_cheng_hiang.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Bengawan Solo",
+   "Category": "Food",
+   "Address": " #B1-26/27",
+   "Phone": " 6570 5113",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bengawansolo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Best Denki",
+   "Category": "Others",
+   "Address": " #04-46/49",
+   "Phone": " 6659 9626",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bestdenki.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "BHG",
+   "Category": "Supermart",
+   "Address": " #03-24/26",
+   "Phone": " 6659 9333",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bhg.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Blackball",
+   "Category": "Food",
+   "Address": " #01-04",
+   "Phone": " 6262 4546",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/blackball.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Bobii Fruttii",
+   "Category": "Food",
+   "Address": " #04-K4",
+   "Phone": " 97734347",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bobii.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Bossini",
+   "Category": "Fashion",
+   "Address": " #03-10/11",
+   "Phone": " 6659 4428",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/bossini.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "BOX BOSS",
+   "Category": "Others",
+   "Address": " #04-28",
+   "Phone": " 6570 8780",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/boxboss.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "BreadTalk",
+   "Category": "Food",
+   "Address": " #01-01",
+   "Phone": " 6659 4434",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/breadtalk.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Buzz",
+   "Category": "Supermart",
+   "Address": " #01-05",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/b/buzz.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "CaféMama",
+   "Category": "Food",
+   "Address": " #05-16",
+   "Phone": " 6570 9287",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/cafemama.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Challenger",
+   "Category": "Others",
+   "Address": " #04-56/60",
+   "Phone": " 6339 9008",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/challenger.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Châteraisé",
+   "Category": "Food",
+   "Address": " #B1-03/04",
+   "Phone": " 66944612",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/chateraise.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Citibank ATM",
+   "Category": "Service",
+   "Address": " #03-K11",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/citibank.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Clementi Public Library",
+   "Category": "Books",
+   "Address": " #05-13/15",
+   "Phone": " 6332 3255 (Hotline)",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/clementilibrary.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Cotton On",
+   "Category": "Fashion",
+   "Address": " #03-07/08",
+   "Phone": " 6659 9240",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/cottonon.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Couture by Szan",
+   "Category": "Fashion",
+   "Address": " #03-18/19",
+   "Phone": " 6339 1998",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Crave",
+   "Category": "Food",
+   "Address": " #B1-K4/K5",
+   "Phone": " 6570 9350",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/crave.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Crystal Jade Kitchen",
+   "Category": "Food",
+   "Address": " #03-54/55",
+   "Phone": " 6659 9215",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/c/crystaljade.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Daessiksin",
+   "Category": "Food",
+   "Address": " #05-17/18",
+   "Phone": " 6659 0749",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/d/daessiksin.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Dolly Farm",
+   "Category": "Fashion",
+   "Address": " #03-38",
+   "Phone": " 8309 8698",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/d/dollyfarm.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Dookki",
+   "Category": "Food",
+   "Address": " #B1-30/31",
+   "Phone": " 6904 8733",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/d/dooki.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Duck Master",
+   "Category": "Food",
+   "Address": " #B1-K20",
+   "Phone": " 9195 8020",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Eastern Rice Dumpling",
+   "Category": "Food",
+   "Address": " #B1-K23",
+   "Phone": " 6352 6283",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/e/eastern_rice_dumpling.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "EAT.",
+   "Category": "Food",
+   "Address": " #B1-17/18",
+   "Phone": " 6659 5685",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/e/eat.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "EC House Express Cut",
+   "Category": "Service",
+   "Address": " #04-18",
+   "Phone": " 6339 5677",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/e/echouse.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Etude House",
+   "Category": "Others",
+   "Address": " #03-34",
+   "Phone": " 6659 4251",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/e/etudehouse.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Eu Yan Sang",
+   "Category": "Others",
+   "Address": " #B1-36",
+   "Phone": " 6659 4540",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/e/euyansang.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Eu Yan Sang TCM Clinic",
+   "Category": "Healthcare",
+   "Address": " #04-27",
+   "Phone": " 6774 5178",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/e/eu_yan_sang_tcm.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "FairPrice Finest",
+   "Category": "Supermart",
+   "Address": " #B1-12/14",
+   "Phone": " 6659 4439 / 6659 4437",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/fairpricefinest.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Fond & Found",
+   "Category": "Others",
+   "Address": " #03-49",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/fondfound.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Foodfare",
+   "Category": "Food",
+   "Address": " #04-20/22",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/foodfare.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Foto Express",
+   "Category": "Service",
+   "Address": " #04-K6",
+   "Phone": " 6560 5600",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/fotoexpress.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Four Leaves",
+   "Category": "Food",
+   "Address": " #B1-15/16",
+   "Phone": " 6659 4673",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/fourleaves.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Four Seasons Durian",
+   "Category": "Food",
+   "Address": " #B1-K19",
+   "Phone": " 6659 5958",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/four_seasons_durian.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Fwah",
+   "Category": "Fashion",
+   "Address": " #04-41/42",
+   "Phone": " 9183 4312",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/f/fwah.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "G2000",
+   "Category": "Fashion",
+   "Address": " #03-04/06",
+   "Phone": " 6659 3537",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/g/g2000.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Gadget Mix",
+   "Category": "Others",
+   "Address": "",
+   "Phone": " #03-K8",
+   "text": "",
+   "img_src": "",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Giordano",
+   "Category": "Fashion",
+   "Address": " #03-09",
+   "Phone": " 6659 0115",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/g/giordano.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "GNC Live Well",
+   "Category": "Healthcare",
+   "Address": " #B1-07",
+   "Phone": " 6659 5536",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/g/gnc.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Goldheart",
+   "Category": "Fashion",
+   "Address": " #03-56/57/58",
+   "Phone": " 6262 4873",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/g/goldheart_1.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Guardian",
+   "Category": "Healthcare",
+   "Address": " #03-59/61",
+   "Phone": " 6659 9234",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/g/guardian.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "H2 Hub",
+   "Category": "Fashion",
+   "Address": " #01-K1 / #03-22",
+   "Phone": " 6659 9230 / 6659 9668",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/h2hub.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "HAKO",
+   "Category": "Others",
+   "Address": " #03-15",
+   "Phone": " 6694 2050",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/hako.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Helen Accessories",
+   "Category": "Fashion",
+   "Address": " #03-K7",
+   "Phone": " 6659 4186",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/helen.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Heritage Hub",
+   "Category": "Fashion",
+   "Address": " #04-31/32",
+   "Phone": " 6659 2377",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/heritagehub.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Hi Kids Fashion",
+   "Category": "Fashion",
+   "Address": " #05-K1",
+   "Phone": " 6694 3069",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/hikids.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Ho Kee Pau",
+   "Category": "Food",
+   "Address": " #B1-K3",
+   "Phone": " 6659 5181",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/ho_kee_pau.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Hockhua Herbal Tea",
+   "Category": "Food",
+   "Address": " #B1-K18",
+   "Phone": " 6659 4374",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/hockhua.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Hockhua Tonic",
+   "Category": "Food",
+   "Address": " #B1-05/06",
+   "Phone": " 6659 4374",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/hockhuatonic.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Home's Harmony",
+   "Category": "Others",
+   "Address": " #04-10",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Homestyle",
+   "Category": "Others",
+   "Address": " #04-08",
+   "Phone": " 6659 2281",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/homestyle.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "HoneyWorld®",
+   "Category": "Food",
+   "Address": " #04-K5",
+   "Phone": " 97391570",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/honeyworld.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Hush Puppies",
+   "Category": "Fashion",
+   "Address": " #03-36/37",
+   "Phone": " 6659 2218",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/h/hushpuppies.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Ichiban Sushi",
+   "Category": "Food",
+   "Address": " #05-28/30",
+   "Phone": " 6659 1882",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/i/ichibansushi.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Imagine Artly",
+   "Category": "Others",
+   "Address": " #05-K5",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/i/imagineartly.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Japan Home",
+   "Category": "Supermart",
+   "Address": " #03-50/52",
+   "Phone": " 6659 0940",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/j/japanhome.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Jean Yip Salon",
+   "Category": "Service",
+   "Address": " #05-06",
+   "Phone": " 6657 0528",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/j/jeanyip.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Jinjja Chicken",
+   "Category": "Food",
+   "Address": " #B1-28/29",
+   "Phone": " 6262 2550",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/j/jinjja_2.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Kaffe & Toast",
+   "Category": "Food",
+   "Address": " #04-K1/K2",
+   "Phone": " 6659 2095",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/k/kaffe.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "KFC",
+   "Category": "Food",
+   "Address": " #B1-32/33",
+   "Phone": " 6659 1792",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/k/kfc.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Kiddy Palace",
+   "Category": "Supermart",
+   "Address": " #05-35/37",
+   "Phone": " 6570 3735",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/k/kiddypalace.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "KoKee Delights",
+   "Category": "Food",
+   "Address": " #B1-K7",
+   "Phone": " 9189 9270",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/k/ko_kee.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Laundry Club",
+   "Category": "Service",
+   "Address": " #B1-01",
+   "Phone": " 6659 4696",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/l/laundryclub.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "LiHO",
+   "Category": "Food",
+   "Address": " #B1-K6",
+   "Phone": " 6262 2324",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/l/liho.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "London Weight Management",
+   "Category": "Service",
+   "Address": " #05-08/09",
+   "Phone": " 6883 1234",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/l/londonweight.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Lovisa",
+   "Category": "Fashion",
+   "Address": " #03-33",
+   "Phone": " 6262 4160",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/l/lovisa.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "M1 Shop",
+   "Category": "Others",
+   "Address": " #04-44/45",
+   "Phone": " 1627",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/m1.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Maki-San",
+   "Category": "Food",
+   "Address": " #04-33",
+   "Phone": " 9621 6056",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/makisan.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Master-Fix Services",
+   "Category": "Service",
+   "Address": " #B1-10",
+   "Phone": " 9672 4552",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/masterfix.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "McDonald’s",
+   "Category": "Food",
+   "Address": " #01-06/09",
+   "Phone": " 6659 0527",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/mcdonald.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Me Heng Jewellery",
+   "Category": "Fashion",
+   "Address": " #03-30",
+   "Phone": " 6777 5269",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/mehengjewellery.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Mei Heong Yuen Dessert",
+   "Category": "Food",
+   "Address": " #04-19",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Mercury Silver",
+   "Category": "Fashion",
+   "Address": " #03-K6",
+   "Phone": " 6659 2887",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Metalli",
+   "Category": "Fashion",
+   "Address": " #03-K13",
+   "Phone": " 6570 3922",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/metalli.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Mimosa",
+   "Category": "Fashion",
+   "Address": " #03-31",
+   "Phone": " 6659 2478",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/mimosa.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Money Changer",
+   "Category": "Service",
+   "Address": " #B1-10A",
+   "Phone": " 6659 5180",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Mr Bean",
+   "Category": "Food",
+   "Address": " #B1-K16",
+   "Phone": " 6659 4724",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/m/mr_bean.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Nailz Treats",
+   "Category": "Service",
+   "Address": " #04-14",
+   "Phone": " 6262 3727",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/n/nailztreats.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Nanyang Optical",
+   "Category": "Fashion",
+   "Address": " #04-43",
+   "Phone": " 6659 1502",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/n/nanyangoptical.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "NATSU",
+   "Category": "Food",
+   "Address": " #B1-K17",
+   "Phone": " 9646 4657",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/n/natsu.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Niigata Bento",
+   "Category": "Food",
+   "Address": " #B1-K13",
+   "Phone": " 6513 2982",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/n/niigata.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "NTUC Unity",
+   "Category": "Healthcare",
+   "Address": " #B1-11",
+   "Phone": " 6659 4719",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/n/ntucunity.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "O Mamma Mia",
+   "Category": "Food",
+   "Address": " #01-11",
+   "Phone": " 6570 9141",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/mam_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "OCBC Bank",
+   "Category": "Service",
+   "Address": " #04-52/55",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/ocbc.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Old Chang Kee",
+   "Category": "Food",
+   "Address": " #B1-K11",
+   "Phone": " 6659 5876",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/old_chang_kee.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Ootoya Japanese Restaurant",
+   "Category": "Food",
+   "Address": " #03-53",
+   "Phone": " 6659 2644",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/ootoya.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Optical 88",
+   "Category": "Fashion",
+   "Address": " #05-27",
+   "Phone": " 6659 5327",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/optical88.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Oriental Hair Solutions",
+   "Category": "Service",
+   "Address": " #05-38/39",
+   "Phone": " 6659 2846",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/orientalhair.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "OSIM",
+   "Category": "Others",
+   "Address": " #04-50",
+   "Phone": " 6659 2104",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/osim.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "OWNDAYS",
+   "Category": "Fashion",
+   "Address": " #03-40/41/42",
+   "Phone": " 6262 5325",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/o/owndays_1.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Party Forte",
+   "Category": "Others",
+   "Address": " #05-K2/K3",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/partyforte.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Pet Lovers Centre",
+   "Category": "Others",
+   "Address": " #B1-02",
+   "Phone": " 6570 6008",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/petlovercentre.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Pezzo",
+   "Category": "Food",
+   "Address": " #B1-K12",
+   "Phone": " 9146 0655",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/pezzo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Pierre Cardin",
+   "Category": "Fashion",
+   "Address": " #03-35",
+   "Phone": " 6659 4149",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/pierrecardin.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "PO BOXES",
+   "Category": "Service",
+   "Address": " #01-K2",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/singpost.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Poh Heng Jewellery",
+   "Category": "Fashion",
+   "Address": " #03-46/48",
+   "Phone": " 6659 9959",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/pohheng.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Poh Kim DVD Blu-Ray",
+   "Category": "Others",
+   "Address": " #04-13",
+   "Phone": " 6570 8596",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/pohkim.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Polar Puffs & Cakes",
+   "Category": "Food",
+   "Address": " #B1-K15",
+   "Phone": " 6659 4264",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/polar_puff.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "POPStation",
+   "Category": "Service",
+   "Address": " #01-K3",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/popstation.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Popular Bookstore",
+   "Category": "Books",
+   "Address": " #05-01/05",
+   "Phone": " 6514 6710",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/popular.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "POSB ATM",
+   "Category": "Service",
+   "Address": " #03-K9",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/p/posb.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Royal Sporting House",
+   "Category": "Fashion",
+   "Address": " #04-06/07",
+   "Phone": " 6262 4465",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/r/royalsportinghouse.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Say Chiizu",
+   "Category": "Food",
+   "Address": " #04-K4",
+   "Phone": " 97734347",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/saychiizu.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Sea Horse",
+   "Category": "Others",
+   "Address": " #04-09",
+   "Phone": " 6265 7978",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/seahorse.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Selffix DIY",
+   "Category": "Others",
+   "Address": " #04-11/12",
+   "Phone": " 6694 2955",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/selfix.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "SF Fruits & Juice",
+   "Category": "Food",
+   "Address": " #B1-K8/K9",
+   "Phone": " 6734 1636",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/sf_fruits.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "SGPHONE",
+   "Category": "Others",
+   "Address": " #04-15",
+   "Phone": " 6262 5228",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/sgphone.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Shine Studio",
+   "Category": "Service",
+   "Address": " #05-22",
+   "Phone": " 6570 5728",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/shinestudio.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Simply Zakka",
+   "Category": "Others",
+   "Address": " #03-13/14",
+   "Phone": " 6694 4603",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/simplyzakka.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Singapore Post - Clementi Central Post Office",
+   "Category": "Service",
+   "Address": " #05-23/26",
+   "Phone": " 1605 *General Hotline",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/singpost.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "SingTel Exclusive Retailer",
+   "Category": "Others",
+   "Address": " #04-51",
+   "Phone": " 6873 9969",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/singtelretailer.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "SK Jewellery",
+   "Category": "Fashion",
+   "Address": " #03-43/45",
+   "Phone": " 6570 3133",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/skjewellery.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "SKECHERS",
+   "Category": "Fashion",
+   "Address": " #03-27",
+   "Phone": " 6262 5103",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/skechers.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "SKP",
+   "Category": "Books",
+   "Address": " #04-23/24",
+   "Phone": " 6570 6748",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/skp.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "So Pho",
+   "Category": "Food",
+   "Address": " #04-34",
+   "Phone": " 6734 4390",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/sopho.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Solemate Orthotics",
+   "Category": "Others",
+   "Address": " #05-K6",
+   "Phone": " 6255 5973",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/solemate.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Soup Restaurant",
+   "Category": "Food",
+   "Address": " #03-62/63",
+   "Phone": " 6659 3688",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/souprestaurant.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Spectacle Hut",
+   "Category": "Fashion",
+   "Address": " #01-10",
+   "Phone": " 6779 1085",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/spectaclehut.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Sportslink",
+   "Category": "Fashion",
+   "Address": " #04-01/05",
+   "Phone": " 6659 0549",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/sportslink.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Standard Chartered Bank",
+   "Category": "Service",
+   "Address": " #04-16/17",
+   "Phone": " 1800 747 7000",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/standardchartered.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Starbucks Coffee",
+   "Category": "Food",
+   "Address": " #03-K1/K3",
+   "Phone": " 6910 0945",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/starbucks_1.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "StarHub Telestation",
+   "Category": "Others",
+   "Address": " #04-25/26",
+   "Phone": " 6659 5336",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/starhub.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Step In Therapy Pte Ltd",
+   "Category": "Service",
+   "Address": " #05-21",
+   "Phone": " 6262 2939",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/stepintherapy.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Stuff'd",
+   "Category": "Food",
+   "Address": " #B1-K10",
+   "Phone": " 6694 1003",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/stuffd.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Subway",
+   "Category": "Food",
+   "Address": " #B1-24/25",
+   "Phone": " 6775 0313",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/subway.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Swee Heng Classic 1989",
+   "Category": "Food",
+   "Address": " #B1-K1/K2",
+   "Phone": " 6677 0300",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/sweeheng.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Swensen's",
+   "Category": "Food",
+   "Address": " #05-31/33",
+   "Phone": " 6659 2151",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/s/swensens.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Takezo Ramen",
+   "Category": "Food",
+   "Address": " #B1-34/35",
+   "Phone": " 6659 5380",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/takezoramen.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "The Body Shop",
+   "Category": "Others",
+   "Address": " #03-29",
+   "Phone": " 6238 9176",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/thebodyshop.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "The Underground",
+   "Category": "Fashion",
+   "Address": " #03-20/21",
+   "Phone": " 6659 2068",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/theunderground.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "The Wallet Shop",
+   "Category": "Fashion",
+   "Address": " #04-35/36",
+   "Phone": " 6659 4850",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/thewalletshop.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "THEFACESHOP",
+   "Category": "Others",
+   "Address": " #03-39",
+   "Phone": " 6659 1925",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/thefaceshop.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "TheJellyHearts",
+   "Category": "Food",
+   "Address": " #04-K7",
+   "Phone": " 6904 9757",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/j/thejellyhearts.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "TK Trichokare",
+   "Category": "Others",
+   "Address": " #05-11/12",
+   "Phone": " 6659 9829",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/tktrichokare.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Toast Box",
+   "Category": "Food",
+   "Address": " #01-01/02",
+   "Phone": " 6659 5506",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/toastbox.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "TOG (Toy or Game)",
+   "Category": "Others",
+   "Address": " #04-29/30",
+   "Phone": " 6570 6084",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/tog.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "TORI-Q",
+   "Category": "Food",
+   "Address": " #B1-19",
+   "Phone": " 6339 6725",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/toriq.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Twelve Cupcakes",
+   "Category": "Food",
+   "Address": " #B1-K21",
+   "Phone": " 6513 0318",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/twelve_cupcakes.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "TYPO",
+   "Category": "Books",
+   "Address": " #03-12",
+   "Phone": " 6570 5689",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/t/typo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "UOB ATM",
+   "Category": "Service",
+   "Address": " #03-K12",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/u/uob.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Vienna Music School",
+   "Category": "Service",
+   "Address": " #03-01",
+   "Phone": " 67341953 / 97341961",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/v/v/vienna-music-school.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Watsons",
+   "Category": "Healthcare",
+   "Address": " #B1-37/39",
+   "Phone": " 6659 4791",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/w/watsons.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Wok Hey",
+   "Category": "Food",
+   "Address": " #B1-K22",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/site/default_logo.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Ya Kun Kaya Toast",
+   "Category": "Food",
+   "Address": " #B1-21/23",
+   "Phone": " 6659 5669",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/y/yakun.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Yole",
+   "Category": "Food",
+   "Address": " #01-11",
+   "Phone": "  -",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/y/y/yole.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Young Hearts",
+   "Category": "Fashion",
+   "Address": " #03-32",
+   "Phone": " 6570 6914",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/y/younghearts.jpg",
+   "Mall": "ClementiMall"
+ },
+ {
+   "Name": "Young Hearts",
+   "Category": "",
+   "Address": " #03-32",
+   "Phone": " 6570 6914",
+   "text": "",
+   "img_src": "https://www.theclementimall.com/media/1/store/y/younghearts.jpg",
+   "Mall": "ClementiMall"
+ }
+]

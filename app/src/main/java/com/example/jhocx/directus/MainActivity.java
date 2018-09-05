@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnSelectMall, btnToDirectory;
     double userLat, userLon;
     static DecimalFormat df3 = new DecimalFormat(".###");
-    int progressValue = 500;
+    int progressValue;
 
     // listNearby is a string array of malls near the user.
     String[] listNearby;
@@ -277,11 +277,13 @@ public class MainActivity extends AppCompatActivity {
         seekBar = (SeekBar) findViewById(R.id.seekBar);
         textView2 = (TextView) findViewById(R.id.textView2);
 
+        progressValue = 500;
+
         seekBar.setOnSeekBarChangeListener(
                 new SeekBar.OnSeekBarChangeListener() {
                     @Override
                     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                        progressValue = (progress * 15) + 500;
+                        progressValue = (progress * 30) + 500;
                         textView2.setText("Your desired distance is: " + progressValue + "m.");
                         distanceChanged = true;
                         firstTime = false;

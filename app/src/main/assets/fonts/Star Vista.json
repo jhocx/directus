@@ -1,0 +1,902 @@
+[
+ {
+   "Name": "5 Senses Bistro",
+   "Category": "Food",
+   "Address": "",
+   "Phone": "",
+   "text": "",
+   "img_src": "",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "A-One Claypot House",
+   "Category": "Food",
+   "Address": "01-46",
+   "Phone": "+65 6734 6567",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/aone%20bak%20kut%20teh_a-one_porridge_600_c191989f-f9dd-48c4-901b-175b32b0e49e_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Ah Mei Prata",
+   "Category": "Food",
+   "Address": "02-12 to 13",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/ah%20mei%20prata_ah%20mei%20prata-560_aab69928-32de-4c6b-bf6b-715213669d6d_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Anastasia",
+   "Category": "Fashion",
+   "Address": "01-25",
+   "Phone": "+65 6694 1513",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/a/anastasia_anastasia_560_3a8413a1-c4dd-4b28-80a4-ae988f4c3a71_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Awfully Chocolate",
+   "Category": "Food",
+   "Address": "02-18",
+   "Phone": "+65 6694 4805",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/cma-tenants/Awfully_cake.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "B9 Dental Centre",
+   "Category": "Healthcare",
+   "Address": "",
+   "Phone": "+65 6334 8988",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/b9dental_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Bornga",
+   "Category": "Food",
+   "Address": "02-24",
+   "Phone": "+65 6694 4696",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/bornga_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Café Montigo",
+   "Category": "Food",
+   "Address": "01-50",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/the-star-vista/deals/03_982x818.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Canton Paradise Teahouse",
+   "Category": "Food",
+   "Address": "B1-45 to 46",
+   "Phone": "+65 6694 2915",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/canton%20paradise_canto_32c04652-8098-40b7-9d9e-79de4888d372_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Cedele",
+   "Category": "Food",
+   "Address": "01-19",
+   "Phone": "+65 6734 0763",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/cedele_logo_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Central Hong Kong Café",
+   "Category": "Food",
+   "Address": "B1-07",
+   "Phone": "+65 6268 9628",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/c/centralhkcafe_560_tsv.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Cha Tra Mue",
+   "Category": "Food",
+   "Address": "B1-06",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/the-star-vista/tenants_logo/TSV_CTM.png.transform/cap-midres/image.png",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Chi-Bing",
+   "Category": "Food",
+   "Address": "01-43",
+   "Phone": "+65 6262 0689",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/chibing_f4638885-8b73-4520-8044-8faab2f0c4dd_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Choc Spot",
+   "Category": "Food",
+   "Address": "01-31",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/choc%20spot_chocspot_e0e510db-137f-45b9-a268-f4ae3bfb8363_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "CoCo Ichibanya",
+   "Category": "Food",
+   "Address": "02-06",
+   "Phone": "+65 6570 2457",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/c/cocoichibanya_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Cold Storage",
+   "Category": "Supermart",
+   "Address": "B1-02, B1-35 to 36",
+   "Phone": "+65 6694 3224",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/coldstorage_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Crabtree & Evelyn",
+   "Category": "Others",
+   "Address": "01-03",
+   "Phone": "+65 6694 3405",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/c/crabtreeandevelyn_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "DBS ATM",
+   "Category": "Service",
+   "Address": "01-K5A",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/dbsbank_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "DISTRICT 10 BAR TAPAS RESTAURANT",
+   "Category": "Food",
+   "Address": "01-42",
+   "Phone": "+65 6694 2884",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/district%2010%20bar%20tapas%20restaurant_untitled_adc1355e-f185-4967-9ca3-75fdb0b26a8d_560x462.png.transform/cap-midres/image.png",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Donna Beauty",
+   "Category": "Service",
+   "Address": "B1-17",
+   "Phone": "+65 6694 4257",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/d/donna%20beautydb%20560x4620504fb03b5cb5d42e4900363730ce7955f560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Durasafe Store",
+   "Category": "Fashion",
+   "Address": "01-04 to 05",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/the-star-vista/tenants_logo/Durasafe%20Store%20TSV.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Eighteen Chefs",
+   "Category": "Food",
+   "Address": "02-22",
+   "Phone": "+65 6694 5975",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/other/18chefs_ha_fr6_mini%20double%20bypass_top_8c3bb469-1392-4e20-be94-2f6a9463a7f0_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Encik Tan",
+   "Category": "Food",
+   "Address": "01-20 to 21",
+   "Phone": "",
+   "text": "",
+   "img_src": "",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Envy and Pride",
+   "Category": "Fashion",
+   "Address": "01-30",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/e/envy%20and%20prideenvypride500ed1c196b8936442c95c364ebf50cc21d560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "excluniqueeee",
+   "Category": "Fashion",
+   "Address": "01-29",
+   "Phone": "+65 9107 2732",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/westgate/excluniqueeee2_MainImage.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Four Leaves",
+   "Category": "Food",
+   "Address": "B1-33",
+   "Phone": "+65 6659 6580",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/f/fourleaves_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Fragrance",
+   "Category": "Food",
+   "Address": "B1-05",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/the-star-vista/tenants_logo/TSV-Fragrance.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Friends by PONTIAN",
+   "Category": "Food",
+   "Address": "B1-37 to 37A",
+   "Phone": "+65 6734 0060",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/f/friendsbypontian_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Fun Toast",
+   "Category": "Food",
+   "Address": "02-03",
+   "Phone": "+65 6694 3558",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/f/funtoast_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Geláre",
+   "Category": "Food",
+   "Address": "02-27",
+   "Phone": "+65 6268 8352",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/g/gelare_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Global Holidays",
+   "Category": "Service",
+   "Address": "01-35",
+   "Phone": "+65 6694 2211",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/g/globalholiday_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Greendot and Smoothie House",
+   "Category": "Food",
+   "Address": "01-33",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/g/greendot_greendot_560_e8807713-7b93-4656-813f-1132915585aa_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Guardian Health & Beauty",
+   "Category": "Healthcare",
+   "Address": "B1-16",
+   "Phone": "+65 6694 3906",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/GuardianHealthandBeautyGuardianLogo_600x500.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Guzman Y Gomez",
+   "Category": "Food",
+   "Address": "01-32",
+   "Phone": "+65 6694 2044",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/g/guzman%20y%20gomez_guzman_560i_18076baf-b3ff-4020-96e2-be957c1ab9ff_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Gyu-Kaku Japanese BBQ",
+   "Category": "Food",
+   "Address": "02-17",
+   "Phone": "6735 4001",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/g/gyu-kaku%20japanese%20bbq_gyu-kaku_69d42d2c-46ea-4733-a8c8-eebb0149a4b4_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "HighBrow",
+   "Category": "Service",
+   "Address": "B1-25",
+   "Phone": "+65 6694 2777",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/h/highbrow_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Home & Giving",
+   "Category": "Others",
+   "Address": "B1-30",
+   "Phone": "+65 6694 3680",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/h/homeandgiving_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Hush Puppies",
+   "Category": "Fashion",
+   "Address": "01-13",
+   "Phone": "+65 6694 3525",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/promotions-tenants/tsv/2014/hushpuppies_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Imakatsu",
+   "Category": "Food",
+   "Address": "01-17",
+   "Phone": "+65 6694 6148",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/i/imakatsu_20150406_2_2edf3043-01c2-4119-8111-a6cb7e24ebfa_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Indulge Skin & Body Lab",
+   "Category": "Service",
+   "Address": "B1-27",
+   "Phone": "+65 6694 2072",
+   "text": "",
+   "img_src": "",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Indulge Thairapy",
+   "Category": "Service",
+   "Address": "B1-19-20",
+   "Phone": "+65 6694 2072",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/cma-tenants/Indulgethairpy-988.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Ippudo",
+   "Category": "Food",
+   "Address": "02-19",
+   "Phone": "+65 6734 1596",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/Ippudo%20TSV.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Itacho Sushi",
+   "Category": "Food",
+   "Address": "B1-12",
+   "Phone": "+65 6694 0880",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/i/itacho%20sushiwhatsapp%20image%2020170210%20at%20115447248392dd965741c1a268e0454bf7c1e6560x462.jpeg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "J-Mart",
+   "Category": "Supermart",
+   "Address": "B1-28",
+   "Phone": "+65 6694 3228",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/j/jmart_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Japan Home",
+   "Category": "Supermart",
+   "Address": "B1-29",
+   "Phone": "+65 6734 2807",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/j/japan%20home_japanhome-600_d9148a23-a4c2-4b48-aa1e-5cd36073b37a_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "kcuts",
+   "Category": "Service",
+   "Address": "01-40",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/kcuts_kcuts_560_8ef10e1b-34db-4970-ab05-257e554ce0df_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "KOKO",
+   "Category": "Food",
+   "Address": "B1-37D",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/k/koko_koko_ic_560_892f494c-9fc4-47d4-9dc1-556aac071426_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Lao Huo Tang",
+   "Category": "Food",
+   "Address": "B1-31A",
+   "Phone": "62623125",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/l/lao%20huo%20tang_logo_a231119b-5665-469a-92bd-8f08d2d5ea96_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "LaundryMart Fetch",
+   "Category": "Service",
+   "Address": "01-39A",
+   "Phone": "+65 6339 7688",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/l/laundrymart_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Lieutenant Kernel",
+   "Category": "Food",
+   "Address": "B1-40A",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/cma-tenants/LK982.JPG.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "LiHo",
+   "Category": "Food",
+   "Address": "B1-39",
+   "Phone": "+65 6694 4033",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/l/liho_liho%20logo-560x462px-01_fac1631e-2b13-4478-8ce3-82a1a2166200_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "LiNK",
+   "Category": "Fashion",
+   "Address": "01-04 to 05",
+   "Phone": "",
+   "text": "",
+   "img_src": "",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Long John Silver's",
+   "Category": "Food",
+   "Address": "02-28",
+   "Phone": "+65 62626339",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/l/long%20john%20silvers_ljs%20logo_sv_85515e6b-7339-4d98-97ac-bed47037ae44_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Marble Slab Creamery",
+   "Category": "Food",
+   "Address": "B1-42",
+   "Phone": "+65 6694 1927",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/m/marbleslab_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Menya Musashi",
+   "Category": "Food",
+   "Address": "B1-08",
+   "Phone": "+65 6694 2515",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/m/menyamusashi_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Mico Boutique",
+   "Category": "Fashion",
+   "Address": "01-37",
+   "Phone": "+65 6268 5195",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/promotions-tenants/tsv/directory/mico_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Morganfield's",
+   "Category": "Food",
+   "Address": "02-23",
+   "Phone": "+65 6694 3635",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/m/morganfields_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Naiise",
+   "Category": "Fashion",
+   "Address": "01-11",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/tenants/Naiise-Logo-StarVista.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Nando's",
+   "Category": "Food",
+   "Address": "B1-09",
+   "Phone": "+65 6694 0630",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/n/nandos_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "NENE CHICKEN",
+   "Category": "Food",
+   "Address": "01-24",
+   "Phone": "+65 6222 6363",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/nenechicken.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "OCBC ATM",
+   "Category": "Service",
+   "Address": "01-k5B",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/o/ocbc_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "OMOOMODON",
+   "Category": "Food",
+   "Address": "02-14 to 15",
+   "Phone": "+65 6734 1863",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/o/omoomodon_omoomodon_600_fc2ad905-37b3-4f8e-a898-a458fe954e06_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Petals by SF",
+   "Category": "Others",
+   "Address": "02-27A",
+   "Phone": "+65 62689906",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/p/petals_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "PEZZO",
+   "Category": "Food",
+   "Address": "",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/pezzo_bedok%20mall_d9ae3404-bec7-412c-a448-8ddf7e3f1c21_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "PORN'S sexy.thai.food",
+   "Category": "Food",
+   "Address": "02-09",
+   "Phone": "+65 6274 3955",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/p/porns%20sexythaifood_porns-600_ed6e2898-208a-473b-b6a1-77c438302ef0_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Privilege Boutique",
+   "Category": "Others",
+   "Address": "01-12",
+   "Phone": "+65 6258 9203",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/r/refresh%20bodyworks_refreshbodyworks_560i_1974f4ae-54e5-42ee-9788-95180632a80b_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Qi Ji",
+   "Category": "Food",
+   "Address": "01-22",
+   "Phone": "+65 63346779",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/for%20quick%20upload%20image/qiji_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "REDMAN",
+   "Category": "Supermart",
+   "Address": "B1-14",
+   "Phone": "+65 6654 4344",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/Redman.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Refresh Bodyworks",
+   "Category": "Service",
+   "Address": "B1-32",
+   "Phone": "+65 6684 2006",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/r/refresh%20bodyworks_refreshbodyworks_560i_1974f4ae-54e5-42ee-9788-95180632a80b_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Rock Gifts and Book Centre",
+   "Category": "Books",
+   "Address": "02-07",
+   "Phone": "+65 6694 3007",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/r/rock%20gifts%20and%20book%20centre_rgbc%20logo_831ff42a-5d6d-45bd-8a12-21c975de0847_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Rollie Olie",
+   "Category": "Food",
+   "Address": "02-05",
+   "Phone": "+65 6694 3111",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/r/rollie%20olie_rollieolie_560_21c6f90f-3cf8-431c-a91e-5d8fff2e2645_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Royal Sporting House Outlet",
+   "Category": "Fashion",
+   "Address": "01-36",
+   "Phone": "+65 62620704",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/r/royal%20sporting%20house_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Saizeriya",
+   "Category": "Food",
+   "Address": "01-44 to 45",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/saizeriya_saizeriya_560_b55af2f4-9ecf-43b8-b518-bfd34d414b0c_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "SAMURICE",
+   "Category": "Food",
+   "Address": "B1-37C",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/samurice_samurice-600_71ed2afd-fd4f-4eb1-ba88-60de41f33209_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Segar Restaurant",
+   "Category": "Food",
+   "Address": "02-08, 02-28A",
+   "Phone": "+65 6262 6609",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/segar%20restaurant_segar-600_0ef37a0f-2661-413f-ab1c-0344cddb1476_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "SELFFIX DIY",
+   "Category": "Others",
+   "Address": "B1-18",
+   "Phone": "+65 6694 1504",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/selffix%20diy_selffix_560_tsv_b5b58bd2-4870-4123-b1ae-93b0955a8c22_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "SF FRUITS",
+   "Category": "Food",
+   "Address": "B1-40",
+   "Phone": "+65 6734 9710",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/sf_fruits.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "SIGNATURE COLLECTION by N's Boutique",
+   "Category": "Fashion",
+   "Address": "01-26",
+   "Phone": "+65 6694 3452",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/s/signature_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Singtel Exclusive Retailer",
+   "Category": "Others",
+   "Address": "B1-26",
+   "Phone": "+65 6734 1324",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/s/singtel%20exclusive%20retailer_singtel_560_4a428225-b942-4f14-88be-d5fbe90277b3_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Sogurt",
+   "Category": "Food",
+   "Address": "01-34",
+   "Phone": "+65 6468 8940",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/s/sogurt_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Sol Mart",
+   "Category": "Supermart",
+   "Address": "01-06",
+   "Phone": "+65 6334 1324",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/s/solmart_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Subway",
+   "Category": "Food",
+   "Address": "B1-34",
+   "Phone": "+65 6694 4208",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/subway-logo.png.transform/cap-midres/image.png",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Swee Lee",
+   "Category": "Others",
+   "Address": "01-07 08 09 10",
+   "Phone": "+65 6334 7703",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/promotions-tenants/tsv/directory/sweelee_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "TEAM Salon",
+   "Category": "Service",
+   "Address": "B1-21",
+   "Phone": "+65 6659 6656",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/teamsalon_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Teo Heng KTV",
+   "Category": "Entertainment",
+   "Address": "01-23, 01-28",
+   "Phone": "+65 6775 1500",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/teo%20heng%20ktv_teoheng%20logo_9a013d0c-f1bc-4687-abf4-baedbb7bb1fd_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Texas Chicken",
+   "Category": "Food",
+   "Address": "B1-13",
+   "Phone": "+65 6694 3036",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/texaschicken_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "The Cheongsam Shoppe",
+   "Category": "Fashion",
+   "Address": "01-38A",
+   "Phone": "+65 6734 8060",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/t/thecheongsamshoppe_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "The Manhattan Fish Market",
+   "Category": "Food",
+   "Address": "B1-10",
+   "Phone": "+65 6694 3548",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/m/manhattanfishmarket_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "The Seafood Market Place by Song Fish",
+   "Category": "Supermart",
+   "Address": "01-18",
+   "Phone": "+65 6694 5822",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/s/songfish_560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "TONI&GUY HAIRDRESSING",
+   "Category": "Service",
+   "Address": "B1-22",
+   "Phone": "+65 6694 4028",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/storefront_560/t/toniguy560i.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Twelve Cupcakes",
+   "Category": "Food",
+   "Address": "01-47",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/t/twelve%20cupcakes_logo_7c017204-ed92-4742-b038-d1021a3dd532_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "UOB ATM",
+   "Category": "Service",
+   "Address": "01-K5C",
+   "Phone": "",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/sg/uob.png.transform/cap-midres/image.png",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "WATAMI Japanese Casual Restaurant",
+   "Category": "Food",
+   "Address": "02-16",
+   "Phone": "+65 6694 3643",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/watami_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Watsons",
+   "Category": "Healthcare",
+   "Address": "B1-23",
+   "Phone": "+65 6694 1134",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/watsons_watsons_560_de9a03cd-71fc-4406-8565-ef8676afc2f6_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Wrap & Roll - The Best of Vietnamese Food",
+   "Category": "Food",
+   "Address": "B1-11",
+   "Phone": "+65 6694 4111",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/w/wrap%20and%20rollwraproll600affb41f099d247b9935e6307f0ff2d38560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Xi Men Jie",
+   "Category": "Food",
+   "Address": "B1-04",
+   "Phone": "+65 6694 4632",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/x/ximenjie_560.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Yakson",
+   "Category": "Service",
+   "Address": "B1-24",
+   "Phone": "+65 6734 8333",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/y/yakson%20house_160715_1378-gi%20-%20560x462_269490f4-19b6-4181-8f6e-647002f70c4d_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "YAYOI",
+   "Category": "Food",
+   "Address": "02-01 to 02",
+   "Phone": "+65 6570 2668",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/y/yayoi_yayoiken_560_8adedad4-ce04-4bbc-83f8-298bfe59fb57_560x462.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "YOLO",
+   "Category": "Food",
+   "Address": "01-48",
+   "Phone": "6694 0612",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-media-library/Shopping%20Malls/Singapore/Singapore/cma-tenants/YOLO_TSV.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ },
+ {
+   "Name": "Yomenya Goemon",
+   "Category": "Food",
+   "Address": "02-04",
+   "Phone": "+65 6694 3570",
+   "text": "",
+   "img_src": "https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/y/yomenya_560_tsv.jpg.transform/cap-midres/image.jpg",
+   "Mall": "Star Vista"
+ }
+]

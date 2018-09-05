@@ -86,11 +86,9 @@
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/tbHeader"
-        app:layout_constraintEnd_toStartOf="@+id/btnGetLoc"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tbHeader"
-        app:layout_constraintTop_toTopOf="@+id/tbHeader"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/tbHeader" />
 
     // This is the button to open the mall selector.
 
